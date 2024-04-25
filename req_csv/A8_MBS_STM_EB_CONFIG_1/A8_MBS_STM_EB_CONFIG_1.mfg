@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manage-config-options version="7">
+  <config>
+    <key>COVERAGE_TYPE</key>
+    <value>STATEMENT+MCDC</value>
+  </config>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Base_TS_TTA8M1I1P0\header</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Base_TS_TTA8M1I1P0\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Base_TS_TTA8M1I1P0\interface\memmap_inc</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Mcu_TS_TTA8M1I1P0\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Platform_TS_TTA8M1I1P0\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Stm_TS_TTA8M1I1P0\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Stm_TS_TTA8M1I1P0\src</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Uart_TS_TTA8M1I1P0\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Port_TS_TTA8M1I1P0\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Base_TS_TTA8M1I1P0\interface\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Base_TS_TTA8M1I1P0\interface\SchM\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8MBS_VCast_Project\VectorCAST\Stm\Configs\A8_MBS_Stm_EB_Config_1\output\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8MBS_VCast_Project\VectorCAST\Stm\Configs\A8_MBS_Stm_EB_Config_1\output\safety_include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\Platform_TS_TTA8M1I1P0\startup\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\SafetyMtl_TS_TTA8M1I1P0\header</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\SafetyMtl_TS_TTA8M1I1P0\memmap_inc</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\SafetyMtl_TS_TTA8M1I1P0\include</search-directory>
+  <search-directory type="TESTABLE_SOURCE_DIR">$(VCAST_SourceRoot)\A8V2_MCAL-SafetyLib-BSP\m7\assembly\plugins\SafetyMtl_TS_TTA8M1I1P0\src</search-directory>
+</manage-config-options>

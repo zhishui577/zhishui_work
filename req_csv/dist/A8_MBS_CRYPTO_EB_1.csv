@@ -1,0 +1,3014 @@
+name,subprogram,srb_num,test_method,export_test_method,combined_values,expected_value
+SUT_Crypto_0013,AhsmAesCbc,SRB_Crypto_043、SRB_Crypto_044、SRB_Crypto_045,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+Crypto_Drv_PriRetCheck.return:0x37
+AhsmAesCbc.nEncFlag:2
+AhsmAesCbc.nKeyLen:0
+AhsmAesCbc.ucKey:<<null>>
+AhsmAesCbc.ucIv:<<null>>
+AhsmAesCbc.nDataLen:0
+AhsmAesCbc.ucData:<<null>>
+AhsmAesCbc.pnOutLen:<<null>>
+AhsmAesCbc.ucOutData:<<null>>
+AhsmAesCbc.return:0x37
+",return:0x37
+SUT_Crypto_0014,AhsmAesCbc,SRB_Crypto_043、SRB_Crypto_044、SRB_Crypto_045,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+Crypto_Drv_PriRetCheck.return:0x31
+AhsmAesCbc.nEncFlag:0
+AhsmAesCbc.nKeyLen:16
+AhsmAesCbc.ucKey:<<null>>
+AhsmAesCbc.ucIv:<<null>>
+AhsmAesCbc.nDataLen:31
+AhsmAesCbc.ucData:<<malloc 1>>
+AhsmAesCbc.pnOutLen:<<null>>
+AhsmAesCbc.ucOutData:<<malloc 1>>
+AhsmAesCbc.return:0x31
+",return:0x31
+SUT_Crypto_0015,AhsmAesCbc,SRB_Crypto_043、SRB_Crypto_044、SRB_Crypto_045,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+Crypto_Drv_PriRetCheck.return:0x31
+AhsmAesCbc.nEncFlag:1
+AhsmAesCbc.nKeyLen:24
+AhsmAesCbc.ucKey:<<malloc 1>>
+AhsmAesCbc.ucIv:<<null>>
+AhsmAesCbc.nDataLen:132000
+AhsmAesCbc.ucData:<<malloc 1>>
+AhsmAesCbc.pnOutLen:<<malloc 1>>
+AhsmAesCbc.ucOutData:<<malloc 1>>
+AhsmAesCbc.return:0x31
+",return:0x31
+SUT_Crypto_0016,AhsmAesCbc,SRB_Crypto_043、SRB_Crypto_046、SRB_Crypto_047、SRB_Crypto_048,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesCbc.nEncFlag:1
+AhsmAesCbc.nKeyLen:32
+AhsmAesCbc.ucKey:<<malloc 1>>
+AhsmAesCbc.ucIv:<<malloc 1>>
+AhsmAesCbc.nDataLen:512
+AhsmAesCbc.ucData:<<malloc 1>>
+AhsmAesCbc.pnOutLen:<<malloc 1>>
+AhsmAesCbc.ucOutData:<<malloc 1>>
+AhsmAesCbc.return:0x0
+",return:0x0
+SUT_Crypto_0017,AhsmAesCbc,SRB_Crypto_043、SRB_Crypto_046、SRB_Crypto_047、SRB_Crypto_048,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesCbc.nEncFlag:1
+AhsmAesCbc.nKeyLen:32
+AhsmAesCbc.ucKey:<<malloc 1>>
+AhsmAesCbc.ucIv:<<malloc 1>>
+AhsmAesCbc.nDataLen:32
+AhsmAesCbc.ucData:<<malloc 1>>
+AhsmAesCbc.pnOutLen:<<malloc 1>>
+AhsmAesCbc.ucOutData:<<malloc 1>>
+AhsmAesCbc.return:0x0
+AhsmSendRecvMsg.return:0
+",return:0x0
+SUT_Crypto_0018,AhsmAesCbc,SRB_Crypto_043、SRB_Crypto_046、SRB_Crypto_047、SRB_Crypto_048,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesCbc.nEncFlag:1
+AhsmAesCbc.nKeyLen:32
+AhsmAesCbc.ucKey:<<malloc 1>>
+AhsmAesCbc.ucIv:<<malloc 1>>
+AhsmAesCbc.nDataLen:512
+AhsmAesCbc.ucData:<<malloc 1>>
+AhsmAesCbc.pnOutLen:<<malloc 1>>
+AhsmAesCbc.ucOutData:<<malloc 1>>
+AhsmAesCbc.return:0x0
+AhsmSendRecvMsg.return:0
+",return:0x0
+SUT_Crypto_0019,AhsmAesCbcIndex,SRB_Crypto_049、SRB_Crypto_050、SRB_Crypto_051、SRB_Crypto_052、SRB_Crypto_053,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+Crypto_Drv_PriRetCheck.return:0x37
+AhsmAesCbcIndex.nEncFlag:2
+AhsmAesCbcIndex.nKeyIndex:0
+AhsmAesCbcIndex.ucIv:<<null>>
+AhsmAesCbcIndex.nDataLen:0
+AhsmAesCbcIndex.ucData:<<null>>
+AhsmAesCbcIndex.pnOutLen:<<null>>
+AhsmAesCbcIndex.ucOutData:<<null>>
+AhsmAesCbcIndex.return:0x37
+",return:0x37
+SUT_Crypto_0020,AhsmAesCbcIndex,SRB_Crypto_049、SRB_Crypto_050、SRB_Crypto_051、SRB_Crypto_052、SRB_Crypto_053,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+Crypto_Drv_PriRetCheck.return:0x3A
+AhsmAesCbcIndex.nEncFlag:0
+AhsmAesCbcIndex.nKeyIndex:0xFF
+AhsmAesCbcIndex.ucIv:<<null>>
+AhsmAesCbcIndex.nDataLen:31
+AhsmAesCbcIndex.ucData:<<malloc 1>>
+AhsmAesCbcIndex.pnOutLen:<<null>>
+AhsmAesCbcIndex.ucOutData:<<malloc 1>>
+AhsmAesCbcIndex.return:0x3A
+",return:0x3A
+SUT_Crypto_0021,AhsmAesCbcIndex,SRB_Crypto_049、SRB_Crypto_050、SRB_Crypto_051、SRB_Crypto_052、SRB_Crypto_053,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+Crypto_Drv_PriRetCheck.return:0x31
+AhsmAesCbcIndex.nEncFlag:1
+AhsmAesCbcIndex.nKeyIndex:0x0
+AhsmAesCbcIndex.ucIv:<<null>>
+AhsmAesCbcIndex.nDataLen:132000
+AhsmAesCbcIndex.ucData:<<malloc 1>>
+AhsmAesCbcIndex.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndex.ucOutData:<<malloc 1>>
+AhsmAesCbcIndex.return:0x31
+",return:0x31
+SUT_Crypto_0022,AhsmAesCbcIndex,SRB_Crypto_049、SRB_Crypto_054、SRB_Crypto_055、SRB_Crypto_056,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesCbcIndex.nEncFlag:1
+AhsmAesCbcIndex.nKeyIndex:0x0
+AhsmAesCbcIndex.ucIv:<<malloc 1>>
+AhsmAesCbcIndex.nDataLen:512
+AhsmAesCbcIndex.ucData:<<malloc 1>>
+AhsmAesCbcIndex.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndex.ucOutData:<<malloc 1>>
+AhsmAesCbcIndex.return:0x0
+",return:0x0
+SUT_Crypto_0023,AhsmAesCbcIndex,SRB_Crypto_049、SRB_Crypto_054、SRB_Crypto_055、SRB_Crypto_056,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesCbcIndex.nEncFlag:1
+AhsmAesCbcIndex.nKeyIndex:0x0
+AhsmAesCbcIndex.ucIv:<<malloc 1>>
+AhsmAesCbcIndex.nDataLen:16
+AhsmAesCbcIndex.ucData:<<malloc 1>>
+AhsmAesCbcIndex.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndex.ucOutData:<<malloc 1>>
+AhsmAesCbcIndex.return:0x0
+AhsmSendRecvMsg.return:0
+",return:0x0
+SUT_Crypto_0024,AhsmAesCbcIndex,SRB_Crypto_049、SRB_Crypto_054、SRB_Crypto_055、SRB_Crypto_056,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesCbcIndex.nEncFlag:1
+AhsmAesCbcIndex.nKeyIndex:0x0
+AhsmAesCbcIndex.ucIv:<<malloc 1>>
+AhsmAesCbcIndex.nDataLen:512
+AhsmAesCbcIndex.ucData:<<malloc 1>>
+AhsmAesCbcIndex.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndex.ucOutData:<<malloc 1>>
+AhsmAesCbcIndex.return:0x0
+AhsmSendRecvMsg.return:0
+",return:0x0
+SUT_Crypto_0001,AhsmAesEcb,SRB_Crypto_028、SRB_Crypto_029、SRB_Crypto_030、SRB_Crypto_031,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+Crypto_Drv_PriRetCheck.return:0x37
+AhsmAesEcb.nEncFlag:2
+AhsmAesEcb.nKeyLen:0
+AhsmAesEcb.ucKey:<<null>>
+AhsmAesEcb.nDataLen:0
+AhsmAesEcb.ucData:<<null>>
+AhsmAesEcb.pnOutLen:<<null>>
+AhsmAesEcb.ucOutData:<<null>>
+AhsmAesEcb.return:0x37
+",return:0x37
+SUT_Crypto_0002,AhsmAesEcb,SRB_Crypto_028、SRB_Crypto_029、SRB_Crypto_030、SRB_Crypto_031,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+Crypto_Drv_PriRetCheck.return:0x31
+AhsmAesEcb.nEncFlag:0
+AhsmAesEcb.nKeyLen:16
+AhsmAesEcb.ucKey:<<null>>
+AhsmAesEcb.nDataLen:31
+AhsmAesEcb.ucData:<<malloc 1>>
+AhsmAesEcb.pnOutLen:<<null>>
+AhsmAesEcb.ucOutData:<<malloc 1>>
+AhsmAesEcb.return:0x31
+",return:0x31
+SUT_Crypto_0003,AhsmAesEcb,SRB_Crypto_028、SRB_Crypto_029、SRB_Crypto_030、SRB_Crypto_031,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+Crypto_Drv_PriRetCheck.return:0x31
+AhsmAesEcb.nEncFlag:1
+AhsmAesEcb.nKeyLen:24
+AhsmAesEcb.ucKey:<<malloc 1>>
+AhsmAesEcb.nDataLen:132000
+AhsmAesEcb.ucData:<<malloc 1>>
+AhsmAesEcb.pnOutLen:<<malloc 1>>
+AhsmAesEcb.ucOutData:<<malloc 1>>
+AhsmAesEcb.return:0x31
+",return:0x31
+SUT_Crypto_0004,AhsmAesEcb,SRB_Crypto_028、SRB_Crypto_032、SRB_Crypto_033、SRB_Crypto_034,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesEcb.nEncFlag:1
+AhsmAesEcb.nKeyLen:32
+AhsmAesEcb.ucKey:<<malloc 1>>
+AhsmAesEcb.nDataLen:512
+AhsmAesEcb.ucData:<<malloc 1>>
+AhsmAesEcb.pnOutLen:<<malloc 1>>
+AhsmAesEcb.ucOutData:<<malloc 1>>
+AhsmAesEcb.return:0x0
+",return:0x0
+SUT_Crypto_0005,AhsmAesEcb,SRB_Crypto_028、SRB_Crypto_032、SRB_Crypto_033、SRB_Crypto_034,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesEcb.nEncFlag:1
+AhsmAesEcb.nKeyLen:32
+AhsmAesEcb.ucKey:<<malloc 1>>
+AhsmAesEcb.nDataLen:32
+AhsmAesEcb.ucData:<<malloc 1>>
+AhsmAesEcb.pnOutLen:<<malloc 1>>
+AhsmAesEcb.ucOutData:<<malloc 1>>
+AhsmAesEcb.return:0x0
+AhsmSendRecvMsg.return:0
+",return:0x0
+SUT_Crypto_0006,AhsmAesEcb,SRB_Crypto_028、SRB_Crypto_032、SRB_Crypto_033、SRB_Crypto_034,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesEcb.nEncFlag:1
+AhsmAesEcb.nKeyLen:32
+AhsmAesEcb.ucKey:<<malloc 1>>
+AhsmAesEcb.nDataLen:512
+AhsmAesEcb.ucData:<<malloc 1>>
+AhsmAesEcb.pnOutLen:<<malloc 1>>
+AhsmAesEcb.ucOutData:<<malloc 1>>
+AhsmAesEcb.return:0x0
+AhsmSendRecvMsg.return:0
+",return:0x0
+SUT_Crypto_0007,AhsmAesEcbIndex,SRB_Crypto_035、SRB_Crypto_036、SRB_Crypto_037、SRB_Crypto_038、SRB_Crypto_039,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+Crypto_Drv_PriRetCheck.return:0x37
+AhsmAesEcbIndex.nEncFlag:2
+AhsmAesEcbIndex.nKeyIndex:0
+AhsmAesEcbIndex.nDataLen:0
+AhsmAesEcbIndex.ucData:<<null>>
+AhsmAesEcbIndex.pnOutLen:<<null>>
+AhsmAesEcbIndex.ucOutData:<<null>>
+AhsmAesEcbIndex.return:0x37
+",return:0x37
+SUT_Crypto_0008,AhsmAesEcbIndex,SRB_Crypto_035、SRB_Crypto_036、SRB_Crypto_037、SRB_Crypto_038、SRB_Crypto_039,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+Crypto_Drv_PriRetCheck.return:0x3A
+AhsmAesEcbIndex.nEncFlag:0
+AhsmAesEcbIndex.nKeyIndex:0xFF
+AhsmAesEcbIndex.nDataLen:31
+AhsmAesEcbIndex.ucData:<<malloc 1>>
+AhsmAesEcbIndex.pnOutLen:<<null>>
+AhsmAesEcbIndex.ucOutData:<<malloc 1>>
+AhsmAesEcbIndex.return:0x3A
+",return:0x3A
+SUT_Crypto_0009,AhsmAesEcbIndex,SRB_Crypto_035、SRB_Crypto_036、SRB_Crypto_037、SRB_Crypto_038、SRB_Crypto_039,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+Crypto_Drv_PriRetCheck.return:0x31
+AhsmAesEcbIndex.nEncFlag:1
+AhsmAesEcbIndex.nKeyIndex:0x0
+AhsmAesEcbIndex.nDataLen:132000
+AhsmAesEcbIndex.ucData:<<malloc 1>>
+AhsmAesEcbIndex.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndex.ucOutData:<<malloc 1>>
+AhsmAesEcbIndex.return:0x31
+",return:0x31
+SUT_Crypto_0010,AhsmAesEcbIndex,SRB_Crypto_035、SRB_Crypto_040、SRB_Crypto_041、SRB_Crypto_042,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesEcbIndex.nEncFlag:1
+AhsmAesEcbIndex.nKeyIndex:0x0
+AhsmAesEcbIndex.nDataLen:512
+AhsmAesEcbIndex.ucData:<<malloc 1>>
+AhsmAesEcbIndex.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndex.ucOutData:<<malloc 1>>
+AhsmAesEcbIndex.return:0x0
+",return:0x0
+SUT_Crypto_0011,AhsmAesEcbIndex,SRB_Crypto_035、SRB_Crypto_040、SRB_Crypto_041、SRB_Crypto_042,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesEcbIndex.nEncFlag:1
+AhsmAesEcbIndex.nKeyIndex:0x0
+AhsmAesEcbIndex.nDataLen:32
+AhsmAesEcbIndex.ucData:<<malloc 1>>
+AhsmAesEcbIndex.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndex.ucOutData:<<malloc 1>>
+AhsmAesEcbIndex.return:0x0
+AhsmSendRecvMsg.return:0
+",return:0x0
+SUT_Crypto_0012,AhsmAesEcbIndex,SRB_Crypto_035、SRB_Crypto_040、SRB_Crypto_041、SRB_Crypto_042,Requirements_based_testing,Demand_Analysis,"Crypto_Drv_PriParaCheck.RetVal[0]:0x0
+Crypto_Drv_PriRetCheck.return:0x0
+AhsmAesEcbIndex.nEncFlag:1
+AhsmAesEcbIndex.nKeyIndex:0x0
+AhsmAesEcbIndex.nDataLen:512
+AhsmAesEcbIndex.ucData:<<malloc 1>>
+AhsmAesEcbIndex.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndex.ucOutData:<<malloc 1>>
+AhsmAesEcbIndex.return:0x0
+AhsmSendRecvMsg.return:0
+",return:0x0
+SUT_Crypto_0031,AhsmAesDecryptSoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesDecryptSoft.in:<<malloc 1>>
+AhsmAesDecryptSoft.out:<<malloc 1>>
+AhsmAesDecryptSoft.key:<<malloc 1>>
+AhsmAesDecryptSoft.return:0
+",return:0
+SUT_Crypto_0039,AhsmAesEcbCalcSoft,SRB_Crypto_438,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmAesEcbCalcSoft.szInData:<<null>>
+AhsmAesEcbCalcSoft.szOutData:<<null>>
+AhsmAesEcbCalcSoft.nLength:0
+AhsmAesEcbCalcSoft.szKey:<<null>>
+AhsmAesEcbCalcSoft.nKeyLen:0
+AhsmAesEcbCalcSoft.nEncFlag:0
+AhsmAesEcbCalcSoft.return:0x33
+",return:0x33
+SUT_Crypto_0040,AhsmAesEcbCalcSoft,SRB_Crypto_438,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmAesEcbCalcSoft.szInData:<<malloc 1>>
+AhsmAesEcbCalcSoft.szOutData:<<null>>
+AhsmAesEcbCalcSoft.nLength:8152
+AhsmAesEcbCalcSoft.szKey:<<malloc 1>>
+AhsmAesEcbCalcSoft.nKeyLen:16
+AhsmAesEcbCalcSoft.nEncFlag:2
+AhsmAesEcbCalcSoft.return:0x33
+",return:0x33
+SUT_Crypto_0041,AhsmAesEcbCalcSoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetEncKeySoft.return:0
+AhsmAesEncryptSoft.return:0
+AhsmAesEcbCalcSoft.szInData:<<malloc 1>>
+AhsmAesEcbCalcSoft.szOutData:<<malloc 1>>
+AhsmAesEcbCalcSoft.nLength:1024
+AhsmAesEcbCalcSoft.szKey:<<malloc 1>>
+AhsmAesEcbCalcSoft.nKeyLen:24
+AhsmAesEcbCalcSoft.nEncFlag:1
+AhsmAesEcbCalcSoft.return:0x0
+",return:0x0
+SUT_Crypto_0042,AhsmAesEcbCalcSoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesDecryptSoft.return:0
+AhsmAesEncryptSoft.return:0
+AhsmAesEcbCalcSoft.szInData:<<malloc 1>>
+AhsmAesEcbCalcSoft.szOutData:<<malloc 1>>
+AhsmAesEcbCalcSoft.nLength:1024
+AhsmAesEcbCalcSoft.szKey:<<malloc 1>>
+AhsmAesEcbCalcSoft.nKeyLen:32
+AhsmAesEcbCalcSoft.nEncFlag:0
+AhsmAesEcbCalcSoft.return:0x0
+",return:0x0
+SUT_Crypto_0043,AhsmAesEcbCalcSoft,SRB_Crypto_438,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"AhsmAesSetDecKeySoft.return:0x33
+AhsmAesDecryptSoft.return:0
+AhsmAesEncryptSoft.return:0
+AhsmAesEcbCalcSoft.szInData:<<malloc 1>>
+AhsmAesEcbCalcSoft.szOutData:<<malloc 1>>
+AhsmAesEcbCalcSoft.nLength:1024
+AhsmAesEcbCalcSoft.szKey:<<malloc 1>>
+AhsmAesEcbCalcSoft.nKeyLen:32
+AhsmAesEcbCalcSoft.nEncFlag:0
+AhsmAesEcbCalcSoft.return:0x33
+",return:0x33
+SUT_Crypto_0038,AhsmAesEncryptSoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesEncryptSoft.in:<<malloc 1>>
+AhsmAesEncryptSoft.out:<<malloc 1>>
+AhsmAesEncryptSoft.key:<<malloc 1>>
+AhsmAesEncryptSoft.return:0
+",return:0
+SUT_Crypto_0025,AhsmAesSetDecKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetDecKeySoft.userKey:<<malloc 1>>
+AhsmAesSetDecKeySoft.bits:<<MIN>>
+AhsmAesSetDecKeySoft.key:<<malloc 1>>
+AhsmAesSetDecKeySoft.return:1
+AhsmAesSetEncKeySoft.return:1
+",return:1
+SUT_Crypto_0026,AhsmAesSetDecKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetDecKeySoft.userKey:<<malloc 1>>
+AhsmAesSetDecKeySoft.bits:<<MIN>>
+AhsmAesSetDecKeySoft.key:<<malloc 1>>
+AhsmAesSetDecKeySoft.return:0
+AhsmAesSetEncKeySoft.return:0
+",return:0
+SUT_Crypto_0027,AhsmAesSetDecKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetDecKeySoft.userKey:<<malloc 1>>
+AhsmAesSetDecKeySoft.bits:<<MIN>>
+AhsmAesSetDecKeySoft.key:<<malloc 1>>
+AhsmAesSetDecKeySoft.return:0
+AhsmAesSetEncKeySoft.return:0
+",return:0
+SUT_Crypto_0028,AhsmAesSetDecKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetDecKeySoft.userKey:<<malloc 1>>
+AhsmAesSetDecKeySoft.bits:<<MIN>>
+AhsmAesSetDecKeySoft.key:<<malloc 1>>
+AhsmAesSetDecKeySoft.return:0
+AhsmAesSetEncKeySoft.return:0
+",return:0
+SUT_Crypto_0029,AhsmAesSetDecKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetDecKeySoft.userKey:<<malloc 1>>
+AhsmAesSetDecKeySoft.bits:<<MIN>>
+AhsmAesSetDecKeySoft.key:<<malloc 1>>
+AhsmAesSetDecKeySoft.key[0].rounds:1
+AhsmAesSetDecKeySoft.return:0
+AhsmAesSetEncKeySoft.return:0
+",return:0
+SUT_Crypto_0030,AhsmAesSetDecKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetDecKeySoft.userKey:<<malloc 1>>
+AhsmAesSetDecKeySoft.bits:<<MIN>>
+AhsmAesSetDecKeySoft.key:<<malloc 1>>
+AhsmAesSetDecKeySoft.key[0].rounds:2
+AhsmAesSetDecKeySoft.return:0
+AhsmAesSetEncKeySoft.return:0
+",return:0
+SUT_Crypto_0032,AhsmAesSetEncKeySoft,SRB_Crypto_438,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmAesSetEncKeySoft.userKey:<<null>>
+AhsmAesSetEncKeySoft.bits:0
+AhsmAesSetEncKeySoft.key:<<null>>
+AhsmAesSetEncKeySoft.return:0x33
+",return:0x33
+SUT_Crypto_0033,AhsmAesSetEncKeySoft,SRB_Crypto_438,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmAesSetEncKeySoft.userKey:<<malloc 1>>
+AhsmAesSetEncKeySoft.bits:128
+AhsmAesSetEncKeySoft.key:<<null>>
+AhsmAesSetEncKeySoft.return:0x33
+",return:0x33
+SUT_Crypto_0034,AhsmAesSetEncKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetEncKeySoft.userKey:<<malloc 1>>
+AhsmAesSetEncKeySoft.bits:192
+AhsmAesSetEncKeySoft.key:<<malloc 1>>
+AhsmAesSetEncKeySoft.return:0x0
+",return:0x0
+SUT_Crypto_0035,AhsmAesSetEncKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetEncKeySoft.userKey:<<malloc 1>>
+AhsmAesSetEncKeySoft.bits:256
+AhsmAesSetEncKeySoft.key:<<malloc 1>>
+AhsmAesSetEncKeySoft.return:0x0
+",return:0x0
+SUT_Crypto_0036,AhsmAesSetEncKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetEncKeySoft.userKey:<<malloc 1>>
+AhsmAesSetEncKeySoft.bits:128
+AhsmAesSetEncKeySoft.key:<<malloc 1>>
+AhsmAesSetEncKeySoft.return:0x0
+",return:0x0
+SUT_Crypto_0037,AhsmAesSetEncKeySoft,SRB_Crypto_438,Requirements_based_testing,Demand_Analysis,"AhsmAesSetEncKeySoft.userKey:<<malloc 1>>
+AhsmAesSetEncKeySoft.bits:256
+AhsmAesSetEncKeySoft.key:<<malloc 1>>
+AhsmAesSetEncKeySoft.return:0x0
+",return:0x0
+SUT_Crypto_0060,AhsmGetOrderedTLVFromData,SRB_Crypto_064,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmGetOrderedTLVFromData.ucData:<<null>>
+AhsmGetOrderedTLVFromData.sn:0
+AhsmGetOrderedTLVFromData.pnTLVOffset:<<null>>
+AhsmGetOrderedTLVFromData.pnDataLen:<<null>>
+AhsmGetOrderedTLVFromData.return:0x33
+",return:0x33
+SUT_Crypto_0061,AhsmGetOrderedTLVFromData,SRB_Crypto_064,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.return:0
+AhsmGetOrderedTLVFromData.ucData:<<malloc 1>>
+AhsmGetOrderedTLVFromData.sn:0
+AhsmGetOrderedTLVFromData.pnTLVOffset:<<malloc 1>>
+AhsmGetOrderedTLVFromData.pnDataLen:<<malloc 1>>
+AhsmGetOrderedTLVFromData.return:0x0
+",return:0x0
+SUT_Crypto_0062,AhsmGetOrderedTLVFromData,SRB_Crypto_064,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.return:0
+AhsmGetOrderedTLVFromData.ucData:<<malloc 1>>
+AhsmGetOrderedTLVFromData.sn:10
+AhsmGetOrderedTLVFromData.pnTLVOffset:<<malloc 1>>
+AhsmGetOrderedTLVFromData.pnDataLen:<<malloc 1>>
+AhsmGetOrderedTLVFromData.return:0x0
+",return:0x0
+SUT_Crypto_0063,AhsmGetOrderedTLVFromData,SRB_Crypto_064,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"AhsmGetTLVFromData.return:0x0
+AhsmGetOrderedTLVFromData.ucData:<<malloc 1>>
+AhsmGetOrderedTLVFromData.sn:10
+AhsmGetOrderedTLVFromData.pnTLVOffset:<<malloc 1>>
+AhsmGetOrderedTLVFromData.pnDataLen:<<malloc 1>>
+AhsmGetOrderedTLVFromData.return:0x31
+",return:0x31
+SUT_Crypto_0074,AhsmGetRSAPriKeyFromData,SRB_Crypto_070、SRB_Crypto_071,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmGetRSAPriKeyFromData.ucData:<<null>>
+AhsmGetRSAPriKeyFromData.rsa:<<null>>
+AhsmGetRSAPriKeyFromData.return:0x33
+",return:0x33
+SUT_Crypto_0075,AhsmGetRSAPriKeyFromData,SRB_Crypto_070、SRB_Crypto_072、SRB_Crypto_073,Requirements_based_testing,Demand_Analysis,"AhsmGetOrderedTLVFromData.return:0
+AhsmGetRSAPriKeyFromData.ucData:<<malloc 1>>
+AhsmGetRSAPriKeyFromData.rsa:<<malloc 1>>
+AhsmGetRSAPriKeyFromData.return:0x0
+AhsmGetRSAPriKeyFromDataP1.return:0
+",return:0x0
+SUT_Crypto_0076,AhsmGetRSAPriKeyFromData,SRB_Crypto_070、SRB_Crypto_072、SRB_Crypto_073,Requirements_based_testing,Demand_Analysis,"AhsmGetOrderedTLVFromData.return:0x33
+AhsmGetRSAPriKeyFromData.ucData:<<malloc 1>>
+AhsmGetRSAPriKeyFromData.rsa:<<malloc 1>>
+AhsmGetRSAPriKeyFromData.return:0x33
+AhsmGetRSAPriKeyFromDataP1.return:0
+",return:0x33
+SUT_Crypto_0080,AhsmGetRSAPriKeyFromDataP1,SRB_Crypto_078、SRB_Crypto_079,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmGetRSAPriKeyFromDataP1.ucData:<<null>>
+AhsmGetRSAPriKeyFromDataP1.rsa:<<null>>
+AhsmGetRSAPriKeyFromDataP1.return:0x33
+",return:0x33
+SUT_Crypto_0081,AhsmGetRSAPriKeyFromDataP1,SRB_Crypto_078、SRB_Crypto_080、SRB_Crypto_081,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.pnValueLen[0]:252
+AhsmGetTLVFromData.return:0x0
+AhsmGetOrderedTLVFromData.return:0x0
+AhsmGetRSAPriKeyFromDataP1.ucData:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.rsa:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.return:0x0
+",return:0x0
+SUT_Crypto_0082,AhsmGetRSAPriKeyFromDataP1,SRB_Crypto_078、SRB_Crypto_080、SRB_Crypto_081,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.pnValueLen[0]:124
+AhsmGetTLVFromData.return:0x0
+AhsmGetOrderedTLVFromData.return:0x0
+AhsmGetRSAPriKeyFromDataP1.ucData:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.rsa:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.return:0x31
+",return:0x31
+SUT_Crypto_0083,AhsmGetRSAPriKeyFromDataP1,SRB_Crypto_078、SRB_Crypto_080、SRB_Crypto_081,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.pnValueLen[0]:68
+AhsmGetTLVFromData.return:0x0
+AhsmGetOrderedTLVFromData.return:0x0
+AhsmGetRSAPriKeyFromDataP1.ucData:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.rsa:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.return:0x0
+",return:0x0
+SUT_Crypto_0084,AhsmGetRSAPriKeyFromDataP1,SRB_Crypto_078、SRB_Crypto_080、SRB_Crypto_081,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.pnValueLen[0]:32
+AhsmGetTLVFromData.return:0x0
+AhsmGetOrderedTLVFromData.return:0x0
+AhsmGetRSAPriKeyFromDataP1.ucData:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.rsa:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.return:0x31
+",return:0x31
+SUT_Crypto_0085,AhsmGetRSAPriKeyFromDataP1,SRB_Crypto_078、SRB_Crypto_080、SRB_Crypto_081,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.pnValueLen[0]:32
+AhsmGetTLVFromData.return:0x33
+AhsmGetOrderedTLVFromData.return:0x33
+AhsmGetRSAPriKeyFromDataP1.ucData:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.rsa:<<malloc 1>>
+AhsmGetRSAPriKeyFromDataP1.return:0x31
+",return:0x31
+SUT_Crypto_0064,AhsmGetRSAPubKeyFromData,SRB_Crypto_062、SRB_Crypto_063,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmGetRSAPubKeyFromData.ucData:<<null>>
+AhsmGetRSAPubKeyFromData.ucN:<<null>>
+AhsmGetRSAPubKeyFromData.pnNLen:<<null>>
+AhsmGetRSAPubKeyFromData.ucE:<<null>>
+AhsmGetRSAPubKeyFromData.pnELen:<<null>>
+AhsmGetRSAPubKeyFromData.return:0x33
+",return:0x33
+SUT_Crypto_0065,AhsmGetRSAPubKeyFromData,SRB_Crypto_062、SRB_Crypto_064、SRB_Crypto_065,Requirements_based_testing,Demand_Analysis,"AhsmGetRSAPubKeyFromData.ucData:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucN:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnNLen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucE:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnELen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.return:0x31
+",return:0x31
+SUT_Crypto_0066,AhsmGetRSAPubKeyFromData,SRB_Crypto_062、SRB_Crypto_064、SRB_Crypto_065,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.pnValueLen[0]:60
+AhsmGetTLVFromData.return:0
+AhsmGetOrderedTLVFromData.return:0
+AhsmGetRSAPubKeyFromData.ucData:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucN:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnNLen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucE:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnELen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.return:0x31
+",return:0x31
+SUT_Crypto_0067,AhsmGetRSAPubKeyFromData,SRB_Crypto_062、SRB_Crypto_064、SRB_Crypto_065,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.pnValueLen[0]:128
+AhsmGetTLVFromData.return:0
+AhsmGetOrderedTLVFromData.return:0
+AhsmGetRSAPubKeyFromData.ucData:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucN:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnNLen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucE:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnELen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.return:0x31
+AhsmMemSet.ucDst:""1""
+AhsmMemSet.cCh:1
+AhsmMemSet.nCount:1
+AhsmMemCpy.ucDst:""1""
+AhsmMemCpy.ucSrc:""1""
+AhsmMemCpy.nCount:1
+",return:0x31
+SUT_Crypto_0068,AhsmGetRSAPubKeyFromData,SRB_Crypto_062、SRB_Crypto_064、SRB_Crypto_065,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.pnValueLen[0]:252
+AhsmGetTLVFromData.return:0
+AhsmGetOrderedTLVFromData.return:0
+AhsmGetRSAPubKeyFromData.ucData:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucN:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnNLen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucE:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnELen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.return:0x0
+AhsmMemSet.ucDst:""1""
+AhsmMemSet.cCh:1
+AhsmMemSet.nCount:1
+AhsmMemCpy.ucDst:""1""
+AhsmMemCpy.ucSrc:""1""
+AhsmMemCpy.nCount:1
+",return:0x0
+SUT_Crypto_0069,AhsmGetRSAPubKeyFromData,SRB_Crypto_062、SRB_Crypto_064、SRB_Crypto_065,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.pnValueLen[0]:59
+AhsmGetTLVFromData.return:0
+AhsmGetOrderedTLVFromData.return:0
+AhsmGetRSAPubKeyFromData.ucData:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucN:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnNLen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.ucE:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.pnELen:<<malloc 1>>
+AhsmGetRSAPubKeyFromData.return:0x31
+",return:0x31
+SUT_Crypto_0044,AhsmGetTLVFromData,SRB_Crypto_064,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmGetTLVFromData.ucData:<<null>>
+AhsmGetTLVFromData.pnType:<<null>>
+AhsmGetTLVFromData.pnValueLen:<<null>>
+AhsmGetTLVFromData.pnValueOffset:<<null>>
+AhsmGetTLVFromData.return:0x33
+",return:0x33
+SUT_Crypto_0045,AhsmGetTLVFromData,SRB_Crypto_064,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmGetTLVFromData.ucData:<<malloc 1>>
+AhsmGetTLVFromData.pnType:<<null>>
+AhsmGetTLVFromData.pnValueLen:<<malloc 1>>
+AhsmGetTLVFromData.pnValueOffset:<<null>>
+AhsmGetTLVFromData.return:0x33
+",return:0x33
+SUT_Crypto_0046,AhsmGetTLVFromData,SRB_Crypto_064,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"AhsmGetTLVFromData.ucData:<<malloc 1>>
+AhsmGetTLVFromData.pnType:<<malloc 1>>
+AhsmGetTLVFromData.pnValueLen:<<malloc 1>>
+AhsmGetTLVFromData.pnValueOffset:<<malloc 1>>
+AhsmGetTLVFromData.return:0x31
+",return:0x31
+SUT_Crypto_0047,AhsmGetTLVFromData,SRB_Crypto_064,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x35
+AhsmGetTLVFromData.ucData:<<malloc 1>>
+AhsmGetTLVFromData.pnType:<<malloc 1>>
+AhsmGetTLVFromData.pnValueLen:<<malloc 1>>
+AhsmGetTLVFromData.pnValueOffset:<<malloc 1>>
+AhsmGetTLVFromData.return:0x35
+",return:0x35
+SUT_Crypto_0048,AhsmGetTLVFromData,SRB_Crypto_064,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x35
+AhsmGetTLVFromData.ucData:<<malloc 1>>
+AhsmGetTLVFromData.pnType:<<malloc 1>>
+AhsmGetTLVFromData.pnValueLen:<<malloc 1>>
+AhsmGetTLVFromData.pnValueOffset:<<malloc 1>>
+AhsmGetTLVFromData.return:0x35
+",return:0x35
+SUT_Crypto_0049,AhsmGetTLVFromData,SRB_Crypto_064,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.ucData:<<malloc 1>>
+AhsmGetTLVFromData.pnType:<<malloc 1>>
+AhsmGetTLVFromData.pnValueLen:<<malloc 1>>
+AhsmGetTLVFromData.pnValueOffset:<<malloc 1>>
+AhsmGetTLVFromData.return:0x0
+",return:0x0
+SUT_Crypto_0050,AhsmGetTLVFromData,SRB_Crypto_064,Requirements_based_testing,Demand_Analysis,"AhsmGetTLVFromData.ucData:<<malloc 1>>
+AhsmGetTLVFromData.pnType:<<malloc 1>>
+AhsmGetTLVFromData.pnValueLen:<<malloc 1>>
+AhsmGetTLVFromData.pnValueOffset:<<malloc 1>>
+AhsmGetTLVFromData.return:0x0
+",return:0x0
+SUT_Crypto_0077,AhsmSetRSAPriKeyIntoData,SRB_Crypto_074、SRB_Crypto_075,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmSetRSAPriKeyIntoData.rsa:<<null>>
+AhsmSetRSAPriKeyIntoData.ucData:<<null>>
+AhsmSetRSAPriKeyIntoData.pnDataLen:<<null>>
+AhsmSetRSAPriKeyIntoData.return:0x33
+",return:0x33
+SUT_Crypto_0078,AhsmSetRSAPriKeyIntoData,SRB_Crypto_074、SRB_Crypto_076、SRB_Crypto_077,Requirements_based_testing,Demand_Analysis,"AhsmSetRSAPriKeyIntoData.rsa:<<malloc 1>>
+AhsmSetRSAPriKeyIntoData.ucData:<<malloc 1>>
+AhsmSetRSAPriKeyIntoData.pnDataLen:<<malloc 1>>
+AhsmSetRSAPriKeyIntoData.return:0x0
+",return:0x0
+SUT_Crypto_0079,AhsmSetRSAPriKeyIntoData,SRB_Crypto_074、SRB_Crypto_076、SRB_Crypto_077,Requirements_based_testing,Demand_Analysis,"AhsmSetTLVIntoData.return:0x33
+AhsmSetRSAPriKeyIntoData.rsa:<<malloc 1>>
+AhsmSetRSAPriKeyIntoData.ucData:<<malloc 1>>
+AhsmSetRSAPriKeyIntoData.pnDataLen:<<malloc 1>>
+AhsmSetRSAPriKeyIntoData.return:0x33
+",return:0x33
+SUT_Crypto_0086,AhsmSetRSAPriKeyIntoDataP1,SRB_Crypto_076,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmSetRSAPriKeyIntoDataP1.rsa:<<null>>
+AhsmSetRSAPriKeyIntoDataP1.ucData:<<null>>
+AhsmSetRSAPriKeyIntoDataP1.pnDataLen:<<null>>
+AhsmSetRSAPriKeyIntoDataP1.return:0x33
+",return:0x33
+SUT_Crypto_0070,AhsmSetRSAPubKeyIntoData,SRB_Crypto_066、SRB_Crypto_067,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmSetRSAPubKeyIntoData.ucN:<<null>>
+AhsmSetRSAPubKeyIntoData.nNLen:0
+AhsmSetRSAPubKeyIntoData.ucE:<<null>>
+AhsmSetRSAPubKeyIntoData.nELen:0
+AhsmSetRSAPubKeyIntoData.ucData:<<null>>
+AhsmSetRSAPubKeyIntoData.pnDataLen:<<null>>
+AhsmSetRSAPubKeyIntoData.return:0x33
+",return:0x33
+SUT_Crypto_0071,AhsmSetRSAPubKeyIntoData,SRB_Crypto_066、SRB_Crypto_067,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+AhsmSetRSAPubKeyIntoData.ucN:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.nNLen:256
+AhsmSetRSAPubKeyIntoData.ucE:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.nELen:3
+AhsmSetRSAPubKeyIntoData.ucData:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.pnDataLen:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.return:0x31
+",return:0x31
+SUT_Crypto_0072,AhsmSetRSAPubKeyIntoData,SRB_Crypto_066、SRB_Crypto_068、SRB_Crypto_069,Requirements_based_testing,Demand_Analysis,"AhsmSetTLVIntoData.return:0x0
+AhsmSetRSAPubKeyIntoData.ucN:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.nNLen:128
+AhsmSetRSAPubKeyIntoData.ucE:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.nELen:3
+AhsmSetRSAPubKeyIntoData.ucData:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.pnDataLen:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.return:0x0
+",return:0x0
+SUT_Crypto_0073,AhsmSetRSAPubKeyIntoData,SRB_Crypto_066、SRB_Crypto_067,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"AhsmSetTLVIntoData.return:0x33
+AhsmSetRSAPubKeyIntoData.ucN:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.nNLen:128
+AhsmSetRSAPubKeyIntoData.ucE:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.nELen:3
+AhsmSetRSAPubKeyIntoData.ucData:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.pnDataLen:<<malloc 1>>
+AhsmSetRSAPubKeyIntoData.return:0x33
+",return:0x33
+SUT_Crypto_0051,AhsmSetTLVIntoData,SRB_Crypto_068,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+AhsmSetTLVIntoData.nType:0
+AhsmSetTLVIntoData.nValueLen:0
+AhsmSetTLVIntoData.ucValue:<<null>>
+AhsmSetTLVIntoData.ucData:<<null>>
+AhsmSetTLVIntoData.pnDataLen:<<null>>
+AhsmSetTLVIntoData.return:0x31
+",return:0x31
+SUT_Crypto_0052,AhsmSetTLVIntoData,SRB_Crypto_068,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmSetTLVIntoData.nType:0
+AhsmSetTLVIntoData.nValueLen:10
+AhsmSetTLVIntoData.ucValue:<<malloc 1>>
+AhsmSetTLVIntoData.ucData:<<null>>
+AhsmSetTLVIntoData.pnDataLen:<<null>>
+AhsmSetTLVIntoData.return:0x33
+",return:0x33
+SUT_Crypto_0053,AhsmSetTLVIntoData,SRB_Crypto_068,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x33
+AhsmSetTLVIntoData.nType:0
+AhsmSetTLVIntoData.nValueLen:10
+AhsmSetTLVIntoData.ucValue:<<malloc 1>>
+AhsmSetTLVIntoData.ucData:<<malloc 1>>
+AhsmSetTLVIntoData.pnDataLen:<<null>>
+AhsmSetTLVIntoData.return:0x33
+",return:0x33
+SUT_Crypto_0054,AhsmSetTLVIntoData,SRB_Crypto_068,Requirements_based_testing,Demand_Analysis,"AhsmSetTLVIntoData.nType:0
+AhsmSetTLVIntoData.nValueLen:10
+AhsmSetTLVIntoData.ucValue:<<malloc 1>>
+AhsmSetTLVIntoData.ucData:<<malloc 1>>
+AhsmSetTLVIntoData.pnDataLen:<<malloc 1>>
+AhsmSetTLVIntoData.return:0x0
+",return:0x0
+SUT_Crypto_0055,AhsmSetTLVIntoData,SRB_Crypto_068,Requirements_based_testing,Demand_Analysis,"AhsmSetTLVIntoData.nType:2
+AhsmSetTLVIntoData.nValueLen:10
+AhsmSetTLVIntoData.ucValue:<<malloc 1>>
+AhsmSetTLVIntoData.ucData:<<malloc 1>>
+AhsmSetTLVIntoData.pnDataLen:<<malloc 1>>
+AhsmSetTLVIntoData.return:0x0
+",return:0x0
+SUT_Crypto_0056,AhsmSetTLVIntoData,SRB_Crypto_068,Requirements_based_testing,Demand_Analysis,"AhsmSetTLVIntoData.nType:2
+AhsmSetTLVIntoData.nValueLen:1
+AhsmSetTLVIntoData.ucValue:<<malloc 1>>
+AhsmSetTLVIntoData.ucValue[0]:0
+AhsmSetTLVIntoData.ucData:<<malloc 1>>
+AhsmSetTLVIntoData.pnDataLen:<<malloc 1>>
+AhsmSetTLVIntoData.return:0x0
+",return:0x0
+SUT_Crypto_0057,AhsmSetTLVIntoData,SRB_Crypto_068,Requirements_based_testing,Demand_Analysis,"AhsmSetTLVIntoData.nType:3
+AhsmSetTLVIntoData.nValueLen:1
+AhsmSetTLVIntoData.ucValue:<<malloc 1>>
+AhsmSetTLVIntoData.ucValue[0]:0
+AhsmSetTLVIntoData.ucData:<<malloc 1>>
+AhsmSetTLVIntoData.pnDataLen:<<malloc 1>>
+AhsmSetTLVIntoData.return:0x0
+AhsmMemCpy.ucDst:""1""
+AhsmMemCpy.ucSrc:""1""
+AhsmMemCpy.nCount:1
+",return:0x0
+SUT_Crypto_0058,AhsmSetTLVIntoData,SRB_Crypto_068,Requirements_based_testing,Demand_Analysis,"AhsmSetTLVIntoData.nType:2
+AhsmSetTLVIntoData.nValueLen:1
+AhsmSetTLVIntoData.ucValue:<<malloc 1>>
+AhsmSetTLVIntoData.ucValue[0]:0
+AhsmSetTLVIntoData.ucData:<<malloc 1>>
+AhsmSetTLVIntoData.pnDataLen:<<malloc 1>>
+AhsmSetTLVIntoData.return:0x0
+AhsmMemCpy.ucDst:""1""
+AhsmMemCpy.ucSrc:""1""
+AhsmMemCpy.nCount:1
+",return:0x0
+SUT_Crypto_0059,AhsmSetTLVIntoData,SRB_Crypto_068,Requirements_based_testing,Demand_Analysis,"AhsmSetTLVIntoData.nType:2
+AhsmSetTLVIntoData.nValueLen:1
+AhsmSetTLVIntoData.ucValue:<<malloc 1>>
+AhsmSetTLVIntoData.ucValue[0]:0
+AhsmSetTLVIntoData.ucData:<<malloc 1>>
+AhsmSetTLVIntoData.pnDataLen:<<malloc 1>>
+AhsmSetTLVIntoData.return:0x31
+AhsmMemCpy.ucDst:""1""
+AhsmMemCpy.ucSrc:""1""
+AhsmMemCpy.nCount:1
+",return:0x31
+SUT_Crypto_0106,AhsmAesCbcIndexAsync,SRB_Crypto_091、SRB_Crypto_092、SRB_Crypto_093、SRB_Crypto_094、SRB_Crypto_095,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+AhsmAesCbcIndexAsync.pCtx:<<null>>
+AhsmAesCbcIndexAsync.nEncFlag:2
+AhsmAesCbcIndexAsync.nKeyIndex:0xFF
+AhsmAesCbcIndexAsync.ucIv:<<null>>
+AhsmAesCbcIndexAsync.nDataLen:0
+AhsmAesCbcIndexAsync.ucData:<<null>>
+AhsmAesCbcIndexAsync.pnOutLen:<<null>>
+AhsmAesCbcIndexAsync.ucOutData:<<null>>
+AhsmAesCbcIndexAsync.return:0x37
+",return:0x37
+SUT_Crypto_0107,AhsmAesCbcIndexAsync,SRB_Crypto_091、SRB_Crypto_096、SRB_Crypto_097、SRB_Crypto_098、SRB_Crypto_099,Requirements_based_testing,Demand_Analysis,"AhsmAesCbcIndexAsync.pCtx:<<malloc 1>>
+AhsmAesCbcIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesCbcIndexAsync.nEncFlag:0
+AhsmAesCbcIndexAsync.nKeyIndex:0x0
+AhsmAesCbcIndexAsync.ucIv:<<malloc 1>>
+AhsmAesCbcIndexAsync.nDataLen:32
+AhsmAesCbcIndexAsync.ucData:<<malloc 1>>
+AhsmAesCbcIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesCbcIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0108,AhsmAesCbcIndexAsync,SRB_Crypto_091、SRB_Crypto_096、SRB_Crypto_097、SRB_Crypto_098、SRB_Crypto_099,Requirements_based_testing,Demand_Analysis,"AhsmAesCbcIndexAsync.pCtx:<<malloc 1>>
+AhsmAesCbcIndexAsync.pCtx[0].nFsmState:1
+AhsmAesCbcIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesCbcIndexAsync.nEncFlag:0
+AhsmAesCbcIndexAsync.nKeyIndex:0x0
+AhsmAesCbcIndexAsync.ucIv:<<malloc 1>>
+AhsmAesCbcIndexAsync.nDataLen:32
+AhsmAesCbcIndexAsync.ucData:<<malloc 1>>
+AhsmAesCbcIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesCbcIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0109,AhsmAesCbcIndexAsync,SRB_Crypto_091、SRB_Crypto_096、SRB_Crypto_097、SRB_Crypto_098、SRB_Crypto_099,Requirements_based_testing,Demand_Analysis,"AhsmAesCbcIndexAsync.pCtx:<<malloc 1>>
+AhsmAesCbcIndexAsync.pCtx[0].nFsmState:1
+AhsmAesCbcIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesCbcIndexAsync.nEncFlag:0
+AhsmAesCbcIndexAsync.nKeyIndex:0x0
+AhsmAesCbcIndexAsync.ucIv:<<malloc 1>>
+AhsmAesCbcIndexAsync.nDataLen:32
+AhsmAesCbcIndexAsync.ucData:<<malloc 1>>
+AhsmAesCbcIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesCbcIndexAsync.return:0x31
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x31
+AhsmMsgParse.return:0x31
+",return:0x31
+SUT_Crypto_0110,AhsmAesCbcIndexAsync,SRB_Crypto_091、SRB_Crypto_096、SRB_Crypto_097、SRB_Crypto_098、SRB_Crypto_099,Requirements_based_testing,Demand_Analysis,"AhsmAesCbcIndexAsync.pCtx:<<malloc 1>>
+AhsmAesCbcIndexAsync.pCtx[0].nFsmState:1
+AhsmAesCbcIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesCbcIndexAsync.nEncFlag:0
+AhsmAesCbcIndexAsync.nKeyIndex:0x0
+AhsmAesCbcIndexAsync.ucIv:<<malloc 1>>
+AhsmAesCbcIndexAsync.nDataLen:32
+AhsmAesCbcIndexAsync.ucData:<<malloc 1>>
+AhsmAesCbcIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesCbcIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0111,AhsmAesCbcIndexAsync,SRB_Crypto_091、SRB_Crypto_096、SRB_Crypto_097、SRB_Crypto_098、SRB_Crypto_099,Requirements_based_testing,Demand_Analysis,"AhsmAesCbcIndexAsync.pCtx:<<malloc 1>>
+AhsmAesCbcIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesCbcIndexAsync.nEncFlag:0
+AhsmAesCbcIndexAsync.nKeyIndex:0x0
+AhsmAesCbcIndexAsync.ucIv:<<malloc 1>>
+AhsmAesCbcIndexAsync.nDataLen:512
+AhsmAesCbcIndexAsync.ucData:<<malloc 1>>
+AhsmAesCbcIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesCbcIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0112,AhsmAesCbcIndexAsync,SRB_Crypto_091、SRB_Crypto_096、SRB_Crypto_097、SRB_Crypto_098、SRB_Crypto_099,Requirements_based_testing,Demand_Analysis,"AhsmAesCbcIndexAsync.pCtx:<<malloc 1>>
+AhsmAesCbcIndexAsync.pCtx[0].nFsmState:2
+AhsmAesCbcIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesCbcIndexAsync.nEncFlag:0
+AhsmAesCbcIndexAsync.nKeyIndex:0x0
+AhsmAesCbcIndexAsync.ucIv:<<malloc 1>>
+AhsmAesCbcIndexAsync.nDataLen:32
+AhsmAesCbcIndexAsync.ucData:<<malloc 1>>
+AhsmAesCbcIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesCbcIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x0
+AhsmMsgParse.return:0x0
+",return:0x93
+SUT_Crypto_0113,AhsmAesCbcIndexAsync,SRB_Crypto_091、SRB_Crypto_096、SRB_Crypto_097、SRB_Crypto_098、SRB_Crypto_099,Requirements_based_testing,Demand_Analysis,"AhsmAesCbcIndexAsync.pCtx:<<malloc 1>>
+AhsmAesCbcIndexAsync.pCtx[0].nFsmState:1
+AhsmAesCbcIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesCbcIndexAsync.nEncFlag:0
+AhsmAesCbcIndexAsync.nKeyIndex:0x0
+AhsmAesCbcIndexAsync.ucIv:<<malloc 1>>
+AhsmAesCbcIndexAsync.nDataLen:512
+AhsmAesCbcIndexAsync.ucData:<<malloc 1>>
+AhsmAesCbcIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesCbcIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x0
+AhsmMsgParse.return:0x0
+",return:0x0
+SUT_Crypto_0114,AhsmAesCbcIndexAsync,SRB_Crypto_091、SRB_Crypto_096、SRB_Crypto_097、SRB_Crypto_098、SRB_Crypto_099,Requirements_based_testing,Demand_Analysis,"AhsmAesCbcIndexAsync.pCtx:<<malloc 1>>
+AhsmAesCbcIndexAsync.pCtx[0].nFsmState:1
+AhsmAesCbcIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesCbcIndexAsync.nEncFlag:0
+AhsmAesCbcIndexAsync.nKeyIndex:0x0
+AhsmAesCbcIndexAsync.ucIv:<<malloc 1>>
+AhsmAesCbcIndexAsync.nDataLen:32
+AhsmAesCbcIndexAsync.ucData:<<malloc 1>>
+AhsmAesCbcIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesCbcIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesCbcIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0087,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_083、SRB_Crypto_084、SRB_Crypto_085、SRB_Crypto_086,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+AhsmAesEcbIndexAsync.pCtx:<<null>>
+AhsmAesEcbIndexAsync.nEncFlag:2
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:0
+AhsmAesEcbIndexAsync.ucData:<<null>>
+AhsmAesEcbIndexAsync.pnOutLen:<<null>>
+AhsmAesEcbIndexAsync.ucOutData:<<null>>
+AhsmAesEcbIndexAsync.return:0x37
+",return:0x37
+SUT_Crypto_0088,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_083、SRB_Crypto_084、SRB_Crypto_085、SRB_Crypto_086,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmAesEcbIndexAsync.pCtx:<<null>>
+AhsmAesEcbIndexAsync.nEncFlag:0
+AhsmAesEcbIndexAsync.nKeyIndex:0xFF
+AhsmAesEcbIndexAsync.nDataLen:31
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<null>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x3A
+",return:0x3A
+SUT_Crypto_0089,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_083、SRB_Crypto_084、SRB_Crypto_085、SRB_Crypto_086,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+AhsmAesEcbIndexAsync.pCtx:<<malloc 1>>
+AhsmAesEcbIndexAsync.nEncFlag:1
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:132000
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x31
+",return:0x31
+SUT_Crypto_0090,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_087、SRB_Crypto_088、SRB_Crypto_089,Requirements_based_testing,Demand_Analysis,"AhsmAesEcbIndexAsync.pCtx:<<malloc 1>>
+AhsmAesEcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesEcbIndexAsync.nEncFlag:1
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:512
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0091,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_083、SRB_Crypto_084、SRB_Crypto_085、SRB_Crypto_086,Requirements_based_testing,Demand_Analysis,"AhsmAesEcbIndexAsync.pCtx:<<malloc 1>>
+AhsmAesEcbIndexAsync.pCtx[0].nFsmState:1
+AhsmAesEcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesEcbIndexAsync.nEncFlag:1
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:512
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0100,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_083、SRB_Crypto_084、SRB_Crypto_085、SRB_Crypto_086,Requirements_based_testing,Demand_Analysis,"AhsmAesEcbIndexAsync.pCtx:<<malloc 1>>
+AhsmAesEcbIndexAsync.pCtx[0].nFsmState:1
+AhsmAesEcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesEcbIndexAsync.nEncFlag:1
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:256
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0101,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_087、SRB_Crypto_088、SRB_Crypto_089,Requirements_based_testing,Demand_Analysis,"AhsmAesEcbIndexAsync.pCtx:<<malloc 1>>
+AhsmAesEcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesEcbIndexAsync.nEncFlag:1
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:256
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0102,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_083、SRB_Crypto_084、SRB_Crypto_085、SRB_Crypto_086,Requirements_based_testing,Demand_Analysis,"AhsmAesEcbIndexAsync.pCtx:<<malloc 1>>
+AhsmAesEcbIndexAsync.pCtx[0].nFsmState:1
+AhsmAesEcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesEcbIndexAsync.nEncFlag:1
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:256
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0103,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_083、SRB_Crypto_084、SRB_Crypto_085、SRB_Crypto_086,Requirements_based_testing,Demand_Analysis,"AhsmAesEcbIndexAsync.pCtx:<<malloc 1>>
+AhsmAesEcbIndexAsync.pCtx[0].nFsmState:1
+AhsmAesEcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesEcbIndexAsync.nEncFlag:1
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:256
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0
+",return:0x33
+SUT_Crypto_0104,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_083、SRB_Crypto_084、SRB_Crypto_085、SRB_Crypto_086,Requirements_based_testing,Demand_Analysis,"AhsmAesEcbIndexAsync.pCtx:<<malloc 1>>
+AhsmAesEcbIndexAsync.pCtx[0].nFsmState:1
+AhsmAesEcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesEcbIndexAsync.nEncFlag:1
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:512
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0105,AhsmAesEcbIndexAsync,SRB_Crypto_082、SRB_Crypto_083、SRB_Crypto_084、SRB_Crypto_085、SRB_Crypto_086,Requirements_based_testing,Demand_Analysis,"AhsmAesEcbIndexAsync.pCtx:<<malloc 1>>
+AhsmAesEcbIndexAsync.pCtx[0].nFsmState:1
+AhsmAesEcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmAesEcbIndexAsync.nEncFlag:1
+AhsmAesEcbIndexAsync.nKeyIndex:0x0
+AhsmAesEcbIndexAsync.nDataLen:512
+AhsmAesEcbIndexAsync.ucData:<<malloc 1>>
+AhsmAesEcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmAesEcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmAesEcbIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0129,AhsmEccPkEncIndexAsync,SRB_Crypto_116、SRB_Crypto_117、SRB_Crypto_118、SRB_Crypto_119,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmEccPkEncIndexAsync.pCtx:<<null>>
+AhsmEccPkEncIndexAsync.nMode:3
+AhsmEccPkEncIndexAsync.nKeyIndex:0
+AhsmEccPkEncIndexAsync.nLen:0
+AhsmEccPkEncIndexAsync.ucData:<<null>>
+AhsmEccPkEncIndexAsync.pnOutLen:<<null>>
+AhsmEccPkEncIndexAsync.ucOutData:<<null>>
+AhsmEccPkEncIndexAsync.return:0x3A
+",return:0x3A
+SUT_Crypto_0130,AhsmEccPkEncIndexAsync,SRB_Crypto_119、SRB_Crypto_120、SRB_Crypto_121、SRB_Crypto_122、SRB_Crypto_123,Requirements_based_testing,Demand_Analysis,"AhsmEccPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nMsgLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCrc:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCla:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nIns:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP1:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP2:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccPkEncIndexAsync.nMode:0
+AhsmEccPkEncIndexAsync.nKeyIndex:0x21
+AhsmEccPkEncIndexAsync.nLen:1
+AhsmEccPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0131,AhsmEccPkEncIndexAsync,SRB_Crypto_119、SRB_Crypto_120、SRB_Crypto_121、SRB_Crypto_122、SRB_Crypto_123,Requirements_based_testing,Demand_Analysis,"AhsmEccPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmEccPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nMsgLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCrc:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCla:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nIns:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP1:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP2:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccPkEncIndexAsync.nMode:0
+AhsmEccPkEncIndexAsync.nKeyIndex:0x21
+AhsmEccPkEncIndexAsync.nLen:1
+AhsmEccPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0132,AhsmEccPkEncIndexAsync,SRB_Crypto_119、SRB_Crypto_120、SRB_Crypto_121、SRB_Crypto_122、SRB_Crypto_123,Requirements_based_testing,Demand_Analysis,"AhsmEccPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmEccPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nMsgLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCrc:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCla:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nIns:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP1:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP2:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccPkEncIndexAsync.nMode:0
+AhsmEccPkEncIndexAsync.nKeyIndex:0x21
+AhsmEccPkEncIndexAsync.nLen:1
+AhsmEccPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0133,AhsmEccPkEncIndexAsync,SRB_Crypto_119、SRB_Crypto_120、SRB_Crypto_121、SRB_Crypto_122、SRB_Crypto_123,Requirements_based_testing,Demand_Analysis,"AhsmEccPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].nFsmState:2
+AhsmEccPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nMsgLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCrc:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCla:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nIns:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP1:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP2:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccPkEncIndexAsync.nMode:0
+AhsmEccPkEncIndexAsync.nKeyIndex:0x21
+AhsmEccPkEncIndexAsync.nLen:1
+AhsmEccPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0134,AhsmEccPkEncIndexAsync,SRB_Crypto_119、SRB_Crypto_120、SRB_Crypto_121、SRB_Crypto_122、SRB_Crypto_123,Requirements_based_testing,Demand_Analysis,"AhsmEccPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmEccPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nMsgLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCrc:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCla:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nIns:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP1:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP2:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccPkEncIndexAsync.nMode:0
+AhsmEccPkEncIndexAsync.nKeyIndex:0x21
+AhsmEccPkEncIndexAsync.nLen:1
+AhsmEccPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0135,AhsmEccPkEncIndexAsync,SRB_Crypto_119、SRB_Crypto_120、SRB_Crypto_121、SRB_Crypto_122、SRB_Crypto_123,Requirements_based_testing,Demand_Analysis,"AhsmEccPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmEccPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nMsgLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCrc:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nCla:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nIns:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP1:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nP2:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccPkEncIndexAsync.nMode:0
+AhsmEccPkEncIndexAsync.nKeyIndex:0x21
+AhsmEccPkEncIndexAsync.nLen:1
+AhsmEccPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmEccPkEncIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0115,AhsmEccSignIndexAsync,SRB_Crypto_100、SRB_Crypto_101、SRB_Crypto_102、SRB_Crypto_103,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmEccSignIndexAsync.pCtx:<<null>>
+AhsmEccSignIndexAsync.nKeyIndex:0
+AhsmEccSignIndexAsync.ucHash:<<null>>
+AhsmEccSignIndexAsync.ucR:<<null>>
+AhsmEccSignIndexAsync.ucS:<<null>>
+AhsmEccSignIndexAsync.return:0x3A
+",return:0x3A
+SUT_Crypto_0116,AhsmEccSignIndexAsync,SRB_Crypto_100、SRB_Crypto_104、SRB_Crypto_105、SRB_Crypto_106、SRB_Crypto_107,Requirements_based_testing,Demand_Analysis,"AhsmEccSignIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSignIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSignIndexAsync.nKeyIndex:0x21
+AhsmEccSignIndexAsync.ucHash:<<malloc 1>>
+AhsmEccSignIndexAsync.ucR:<<malloc 1>>
+AhsmEccSignIndexAsync.ucS:<<malloc 1>>
+AhsmEccSignIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0117,AhsmEccSignIndexAsync,SRB_Crypto_100、SRB_Crypto_104、SRB_Crypto_105、SRB_Crypto_106、SRB_Crypto_107,Requirements_based_testing,Demand_Analysis,"AhsmEccSignIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSignIndexAsync.pCtx[0].nFsmState:1
+AhsmEccSignIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSignIndexAsync.nKeyIndex:0x21
+AhsmEccSignIndexAsync.ucHash:<<malloc 1>>
+AhsmEccSignIndexAsync.ucR:<<malloc 1>>
+AhsmEccSignIndexAsync.ucS:<<malloc 1>>
+AhsmEccSignIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0118,AhsmEccSignIndexAsync,SRB_Crypto_100、SRB_Crypto_104、SRB_Crypto_105、SRB_Crypto_106、SRB_Crypto_107,Requirements_based_testing,Demand_Analysis,"AhsmEccSignIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSignIndexAsync.pCtx[0].nFsmState:1
+AhsmEccSignIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSignIndexAsync.nKeyIndex:0x21
+AhsmEccSignIndexAsync.ucHash:<<malloc 1>>
+AhsmEccSignIndexAsync.ucR:<<malloc 1>>
+AhsmEccSignIndexAsync.ucS:<<malloc 1>>
+AhsmEccSignIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x0
+AhsmMsgParse.return:0x0
+AhsmMemCpy.ucDst:""1""
+AhsmMemCpy.ucSrc:""1""
+AhsmMemCpy.nCount:1
+",return:0x0
+SUT_Crypto_0119,AhsmEccSignIndexAsync,SRB_Crypto_100、SRB_Crypto_104、SRB_Crypto_105、SRB_Crypto_106、SRB_Crypto_107,Requirements_based_testing,Demand_Analysis,"AhsmEccSignIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSignIndexAsync.pCtx[0].nFsmState:2
+AhsmEccSignIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSignIndexAsync.nKeyIndex:0x21
+AhsmEccSignIndexAsync.ucHash:<<malloc 1>>
+AhsmEccSignIndexAsync.ucR:<<malloc 1>>
+AhsmEccSignIndexAsync.ucS:<<malloc 1>>
+AhsmEccSignIndexAsync.return:0x93
+",return:0x93
+SUT_Crypto_0120,AhsmEccSignIndexAsync,SRB_Crypto_100、SRB_Crypto_104、SRB_Crypto_105、SRB_Crypto_106、SRB_Crypto_107,Requirements_based_testing,Demand_Analysis,"AhsmEccSignIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSignIndexAsync.pCtx[0].nFsmState:1
+AhsmEccSignIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSignIndexAsync.nKeyIndex:0x21
+AhsmEccSignIndexAsync.ucHash:<<malloc 1>>
+AhsmEccSignIndexAsync.ucR:<<malloc 1>>
+AhsmEccSignIndexAsync.ucS:<<malloc 1>>
+AhsmEccSignIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+AhsmMemCpy.ucDst:""1""
+AhsmMemCpy.ucSrc:""1""
+AhsmMemCpy.nCount:1
+",return:0x33
+SUT_Crypto_0121,AhsmEccSignIndexAsync,SRB_Crypto_100、SRB_Crypto_104、SRB_Crypto_105、SRB_Crypto_106、SRB_Crypto_107,Requirements_based_testing,Demand_Analysis,"AhsmEccSignIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSignIndexAsync.pCtx[0].nFsmState:1
+AhsmEccSignIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSignIndexAsync.nKeyIndex:0x21
+AhsmEccSignIndexAsync.ucHash:<<malloc 1>>
+AhsmEccSignIndexAsync.ucR:<<malloc 1>>
+AhsmEccSignIndexAsync.ucS:<<malloc 1>>
+AhsmEccSignIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0136,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_125、SRB_Crypto_126、SRB_Crypto_127、SRB_Crypto_128,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmEccSkDecIndexAsync.pCtx:<<null>>
+AhsmEccSkDecIndexAsync.nMode:0
+AhsmEccSkDecIndexAsync.nKeyIndex:0
+AhsmEccSkDecIndexAsync.nLen:0
+AhsmEccSkDecIndexAsync.ucCipher:<<null>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<null>>
+AhsmEccSkDecIndexAsync.ucData:<<null>>
+AhsmEccSkDecIndexAsync.return:0x3A
+",return:0x3A
+SUT_Crypto_0137,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_125、SRB_Crypto_126、SRB_Crypto_127、SRB_Crypto_128,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmEccSkDecIndexAsync.pCtx:<<null>>
+AhsmEccSkDecIndexAsync.nMode:1
+AhsmEccSkDecIndexAsync.nKeyIndex:0
+AhsmEccSkDecIndexAsync.nLen:0
+AhsmEccSkDecIndexAsync.ucCipher:<<null>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<null>>
+AhsmEccSkDecIndexAsync.ucData:<<null>>
+AhsmEccSkDecIndexAsync.return:0x3A
+",return:0x3A
+SUT_Crypto_0138,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_125、SRB_Crypto_126、SRB_Crypto_127、SRB_Crypto_128,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmEccSkDecIndexAsync.pCtx:<<null>>
+AhsmEccSkDecIndexAsync.nMode:2
+AhsmEccSkDecIndexAsync.nKeyIndex:0
+AhsmEccSkDecIndexAsync.nLen:0
+AhsmEccSkDecIndexAsync.ucCipher:<<null>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<null>>
+AhsmEccSkDecIndexAsync.ucData:<<null>>
+AhsmEccSkDecIndexAsync.return:0x3A
+",return:0x3A
+SUT_Crypto_0139,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_125、SRB_Crypto_126、SRB_Crypto_127、SRB_Crypto_128,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmEccSkDecIndexAsync.pCtx:<<null>>
+AhsmEccSkDecIndexAsync.nMode:3
+AhsmEccSkDecIndexAsync.nKeyIndex:0
+AhsmEccSkDecIndexAsync.nLen:0
+AhsmEccSkDecIndexAsync.ucCipher:<<null>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<null>>
+AhsmEccSkDecIndexAsync.ucData:<<null>>
+AhsmEccSkDecIndexAsync.return:0x3A
+",return:0x3A
+SUT_Crypto_0140,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_129、SRB_Crypto_130、SRB_Crypto_131、SRB_Crypto_132,Requirements_based_testing,Demand_Analysis,"AhsmEccSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccSkDecIndexAsync.nMode:0
+AhsmEccSkDecIndexAsync.nKeyIndex:0x21
+AhsmEccSkDecIndexAsync.nLen:100
+AhsmEccSkDecIndexAsync.ucCipher:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmEccSkDecIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0141,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_129、SRB_Crypto_130、SRB_Crypto_131、SRB_Crypto_132,Requirements_based_testing,Demand_Analysis,"AhsmEccSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmEccSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccSkDecIndexAsync.nMode:0
+AhsmEccSkDecIndexAsync.nKeyIndex:0x21
+AhsmEccSkDecIndexAsync.nLen:100
+AhsmEccSkDecIndexAsync.ucCipher:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmEccSkDecIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0142,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_129、SRB_Crypto_130、SRB_Crypto_131、SRB_Crypto_132,Requirements_based_testing,Demand_Analysis,"AhsmEccSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmEccSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccSkDecIndexAsync.nMode:0
+AhsmEccSkDecIndexAsync.nKeyIndex:0x21
+AhsmEccSkDecIndexAsync.nLen:100
+AhsmEccSkDecIndexAsync.ucCipher:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmEccSkDecIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0143,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_129、SRB_Crypto_130、SRB_Crypto_131、SRB_Crypto_132,Requirements_based_testing,Demand_Analysis,"AhsmEccSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].nFsmState:2
+AhsmEccSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccSkDecIndexAsync.nMode:0
+AhsmEccSkDecIndexAsync.nKeyIndex:0x21
+AhsmEccSkDecIndexAsync.nLen:100
+AhsmEccSkDecIndexAsync.ucCipher:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmEccSkDecIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0144,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_129、SRB_Crypto_130、SRB_Crypto_131、SRB_Crypto_132,Requirements_based_testing,Demand_Analysis,"AhsmEccSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmEccSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccSkDecIndexAsync.nMode:0
+AhsmEccSkDecIndexAsync.nKeyIndex:0x21
+AhsmEccSkDecIndexAsync.nLen:100
+AhsmEccSkDecIndexAsync.ucCipher:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmEccSkDecIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0145,AhsmEccSkDecIndexAsync,SRB_Crypto_124、SRB_Crypto_129、SRB_Crypto_130、SRB_Crypto_131、SRB_Crypto_132,Requirements_based_testing,Demand_Analysis,"AhsmEccSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmEccSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccSkDecIndexAsync.nMode:0
+AhsmEccSkDecIndexAsync.nKeyIndex:0x21
+AhsmEccSkDecIndexAsync.nLen:100
+AhsmEccSkDecIndexAsync.ucCipher:<<malloc 1>>
+AhsmEccSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmEccSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmEccSkDecIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0122,AhsmEccVerifyIndexAsync,SRB_Crypto_108、SRB_Crypto_109、SRB_Crypto_110、SRB_Crypto_111,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmEccVerifyIndexAsync.pCtx:<<null>>
+AhsmEccVerifyIndexAsync.nAlg:2
+AhsmEccVerifyIndexAsync.nIndex:0
+AhsmEccVerifyIndexAsync.ucR:<<null>>
+AhsmEccVerifyIndexAsync.ucS:<<null>>
+AhsmEccVerifyIndexAsync.ucHash:<<null>>
+AhsmEccVerifyIndexAsync.return:0x3A
+",return:0x3A
+SUT_Crypto_0123,AhsmEccVerifyIndexAsync,SRB_Crypto_108、SRB_Crypto_112、SRB_Crypto_113、SRB_Crypto_114、SRB_Crypto_115,Requirements_based_testing,Demand_Analysis,"AhsmEccVerifyIndexAsync.pCtx:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccVerifyIndexAsync.nAlg:0
+AhsmEccVerifyIndexAsync.nIndex:0x21
+AhsmEccVerifyIndexAsync.ucR:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucS:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucHash:<<malloc 1>>
+AhsmEccVerifyIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0124,AhsmEccVerifyIndexAsync,SRB_Crypto_108、SRB_Crypto_112、SRB_Crypto_113、SRB_Crypto_114、SRB_Crypto_115,Requirements_based_testing,Demand_Analysis,"AhsmEccVerifyIndexAsync.pCtx:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].nFsmState:1
+AhsmEccVerifyIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccVerifyIndexAsync.nAlg:0
+AhsmEccVerifyIndexAsync.nIndex:0x21
+AhsmEccVerifyIndexAsync.ucR:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucS:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucHash:<<malloc 1>>
+AhsmEccVerifyIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0125,AhsmEccVerifyIndexAsync,SRB_Crypto_108、SRB_Crypto_112、SRB_Crypto_113、SRB_Crypto_114、SRB_Crypto_115,Requirements_based_testing,Demand_Analysis,"AhsmEccVerifyIndexAsync.pCtx:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].nFsmState:1
+AhsmEccVerifyIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccVerifyIndexAsync.nAlg:0
+AhsmEccVerifyIndexAsync.nIndex:0x21
+AhsmEccVerifyIndexAsync.ucR:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucS:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucHash:<<malloc 1>>
+AhsmEccVerifyIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0126,AhsmEccVerifyIndexAsync,SRB_Crypto_108、SRB_Crypto_112、SRB_Crypto_113、SRB_Crypto_114、SRB_Crypto_115,Requirements_based_testing,Demand_Analysis,"AhsmEccVerifyIndexAsync.pCtx:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].nFsmState:2
+AhsmEccVerifyIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccVerifyIndexAsync.nAlg:0
+AhsmEccVerifyIndexAsync.nIndex:0x21
+AhsmEccVerifyIndexAsync.ucR:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucS:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucHash:<<malloc 1>>
+AhsmEccVerifyIndexAsync.return:0x93
+",return:0x93
+SUT_Crypto_0127,AhsmEccVerifyIndexAsync,SRB_Crypto_108、SRB_Crypto_112、SRB_Crypto_113、SRB_Crypto_114、SRB_Crypto_115,Requirements_based_testing,Demand_Analysis,"AhsmEccVerifyIndexAsync.pCtx:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].nFsmState:1
+AhsmEccVerifyIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccVerifyIndexAsync.nAlg:0
+AhsmEccVerifyIndexAsync.nIndex:0x21
+AhsmEccVerifyIndexAsync.ucR:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucS:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucHash:<<malloc 1>>
+AhsmEccVerifyIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0128,AhsmEccVerifyIndexAsync,SRB_Crypto_108、SRB_Crypto_112、SRB_Crypto_113、SRB_Crypto_114、SRB_Crypto_115,Requirements_based_testing,Demand_Analysis,"AhsmEccVerifyIndexAsync.pCtx:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].nFsmState:1
+AhsmEccVerifyIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmEccVerifyIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmEccVerifyIndexAsync.nAlg:0
+AhsmEccVerifyIndexAsync.nIndex:0x21
+AhsmEccVerifyIndexAsync.ucR:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucS:<<malloc 1>>
+AhsmEccVerifyIndexAsync.ucHash:<<malloc 1>>
+AhsmEccVerifyIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0146,AhsmMacIndexAsync,SRB_Crypto_133、SRB_Crypto_134、SRB_Crypto_135、SRB_Crypto_136、SRB_Crypto_137、SRB_Crypto_138,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+AhsmMacIndexAsync.pCtx:<<null>>
+AhsmMacIndexAsync.nMacType:3
+AhsmMacIndexAsync.nAlg:2
+AhsmMacIndexAsync.nIndex:0xFF
+AhsmMacIndexAsync.nDataLen:0
+AhsmMacIndexAsync.ucData:<<null>>
+AhsmMacIndexAsync.pnMacLen:<<null>>
+AhsmMacIndexAsync.ucMac:<<null>>
+AhsmMacIndexAsync.return:0x37
+",return:0x37
+SUT_Crypto_0147,AhsmMacIndexAsync,SRB_Crypto_133、SRB_Crypto_139、SRB_Crypto_140、SRB_Crypto_141、SRB_Crypto_142,Requirements_based_testing,Demand_Analysis,"AhsmMacIndexAsync.pCtx:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmMacIndexAsync.nMacType:0
+AhsmMacIndexAsync.nAlg:0
+AhsmMacIndexAsync.nIndex:0x0
+AhsmMacIndexAsync.nDataLen:10
+AhsmMacIndexAsync.ucData:<<malloc 1>>
+AhsmMacIndexAsync.pnMacLen:<<malloc 1>>
+AhsmMacIndexAsync.ucMac:<<malloc 1>>
+AhsmMacIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0148,AhsmMacIndexAsync,SRB_Crypto_133、SRB_Crypto_139、SRB_Crypto_140、SRB_Crypto_141、SRB_Crypto_142,Requirements_based_testing,Demand_Analysis,"AhsmMacIndexAsync.pCtx:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmMacIndexAsync.nMacType:0
+AhsmMacIndexAsync.nAlg:0
+AhsmMacIndexAsync.nIndex:0x0
+AhsmMacIndexAsync.nDataLen:512
+AhsmMacIndexAsync.ucData:<<malloc 1>>
+AhsmMacIndexAsync.pnMacLen:<<malloc 1>>
+AhsmMacIndexAsync.ucMac:<<malloc 1>>
+AhsmMacIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0149,AhsmMacIndexAsync,SRB_Crypto_133、SRB_Crypto_139、SRB_Crypto_140、SRB_Crypto_141、SRB_Crypto_142,Requirements_based_testing,Demand_Analysis,"AhsmMacIndexAsync.pCtx:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].nFsmState:1
+AhsmMacIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmMacIndexAsync.nMacType:0
+AhsmMacIndexAsync.nAlg:0
+AhsmMacIndexAsync.nIndex:0x0
+AhsmMacIndexAsync.nDataLen:512
+AhsmMacIndexAsync.ucData:<<malloc 1>>
+AhsmMacIndexAsync.pnMacLen:<<malloc 1>>
+AhsmMacIndexAsync.ucMac:<<malloc 1>>
+AhsmMacIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0150,AhsmMacIndexAsync,SRB_Crypto_133、SRB_Crypto_139、SRB_Crypto_140、SRB_Crypto_141、SRB_Crypto_142,Requirements_based_testing,Demand_Analysis,"AhsmMacIndexAsync.pCtx:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].nFsmState:2
+AhsmMacIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmMacIndexAsync.nMacType:0
+AhsmMacIndexAsync.nAlg:0
+AhsmMacIndexAsync.nIndex:0x0
+AhsmMacIndexAsync.nDataLen:512
+AhsmMacIndexAsync.ucData:<<malloc 1>>
+AhsmMacIndexAsync.pnMacLen:<<malloc 1>>
+AhsmMacIndexAsync.ucMac:<<malloc 1>>
+AhsmMacIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0151,AhsmMacIndexAsync,SRB_Crypto_133、SRB_Crypto_139、SRB_Crypto_140、SRB_Crypto_141、SRB_Crypto_142,Requirements_based_testing,Demand_Analysis,"AhsmMacIndexAsync.pCtx:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].nFsmState:1
+AhsmMacIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmMacIndexAsync.nMacType:0
+AhsmMacIndexAsync.nAlg:0
+AhsmMacIndexAsync.nIndex:0x0
+AhsmMacIndexAsync.nDataLen:512
+AhsmMacIndexAsync.ucData:<<malloc 1>>
+AhsmMacIndexAsync.pnMacLen:<<malloc 1>>
+AhsmMacIndexAsync.ucMac:<<malloc 1>>
+AhsmMacIndexAsync.return:0x11
+AhsmGetQueueHsmStatus.pnStatus[0]:1
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x11
+SUT_Crypto_0152,AhsmMacIndexAsync,SRB_Crypto_133、SRB_Crypto_139、SRB_Crypto_140、SRB_Crypto_141、SRB_Crypto_142,Requirements_based_testing,Demand_Analysis,"AhsmMacIndexAsync.pCtx:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].nFsmState:1
+AhsmMacIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmMacIndexAsync.nMacType:0
+AhsmMacIndexAsync.nAlg:0
+AhsmMacIndexAsync.nIndex:0x0
+AhsmMacIndexAsync.nDataLen:512
+AhsmMacIndexAsync.ucData:<<malloc 1>>
+AhsmMacIndexAsync.pnMacLen:<<malloc 1>>
+AhsmMacIndexAsync.ucMac:<<malloc 1>>
+AhsmMacIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0153,AhsmMacIndexAsync,SRB_Crypto_133、SRB_Crypto_139、SRB_Crypto_140、SRB_Crypto_141、SRB_Crypto_142,Requirements_based_testing,Demand_Analysis,"AhsmMacIndexAsync.pCtx:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].nFsmState:1
+AhsmMacIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmMacIndexAsync.pCtx[0].rcvMsg.nBodyLen:33
+AhsmMacIndexAsync.nMacType:0
+AhsmMacIndexAsync.nAlg:0
+AhsmMacIndexAsync.nIndex:0x0
+AhsmMacIndexAsync.nDataLen:512
+AhsmMacIndexAsync.ucData:<<malloc 1>>
+AhsmMacIndexAsync.pnMacLen:<<malloc 1>>
+AhsmMacIndexAsync.ucMac:<<malloc 1>>
+AhsmMacIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0154,AhsmMacIndexAsync,SRB_Crypto_133、SRB_Crypto_139、SRB_Crypto_140、SRB_Crypto_141、SRB_Crypto_142,Requirements_based_testing,Demand_Analysis,"AhsmMacIndexAsync.pCtx:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].nFsmState:1
+AhsmMacIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmMacIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmMacIndexAsync.nMacType:0
+AhsmMacIndexAsync.nAlg:0
+AhsmMacIndexAsync.nIndex:0x0
+AhsmMacIndexAsync.nDataLen:512
+AhsmMacIndexAsync.ucData:<<malloc 1>>
+AhsmMacIndexAsync.pnMacLen:<<malloc 1>>
+AhsmMacIndexAsync.ucMac:<<malloc 1>>
+AhsmMacIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:1
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0176,AhsmRsaPkDecIndexAsync,SRB_Crypto_159,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+AhsmRsaPkDecIndexAsync.pCtx:<<null>>
+AhsmRsaPkDecIndexAsync.nIndex:0
+AhsmRsaPkDecIndexAsync.nLen:0
+AhsmRsaPkDecIndexAsync.ucData:<<null>>
+AhsmRsaPkDecIndexAsync.pnOutLen:<<null>>
+AhsmRsaPkDecIndexAsync.ucOutData:<<null>>
+AhsmRsaPkDecIndexAsync.return:0x31
+",return:0x31
+SUT_Crypto_0177,AhsmRsaPkDecIndexAsync,SRB_Crypto_159,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkDecIndexAsync.nIndex:0x2B
+AhsmRsaPkDecIndexAsync.nLen:64
+AhsmRsaPkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0178,AhsmRsaPkDecIndexAsync,SRB_Crypto_159,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaPkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkDecIndexAsync.nIndex:0x2B
+AhsmRsaPkDecIndexAsync.nLen:64
+AhsmRsaPkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0179,AhsmRsaPkDecIndexAsync,SRB_Crypto_159,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaPkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkDecIndexAsync.nIndex:0x2B
+AhsmRsaPkDecIndexAsync.nLen:64
+AhsmRsaPkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0180,AhsmRsaPkDecIndexAsync,SRB_Crypto_159,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaPkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkDecIndexAsync.nIndex:0x2B
+AhsmRsaPkDecIndexAsync.nLen:64
+AhsmRsaPkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0181,AhsmRsaPkDecIndexAsync,SRB_Crypto_159,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaPkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkDecIndexAsync.nIndex:0x2B
+AhsmRsaPkDecIndexAsync.nLen:64
+AhsmRsaPkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0182,AhsmRsaPkDecIndexAsync,SRB_Crypto_159,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaPkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkDecIndexAsync.nIndex:0x2B
+AhsmRsaPkDecIndexAsync.nLen:64
+AhsmRsaPkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0187,AhsmRsaPkDecPkcsIndexAsync,SRB_Crypto_153、SRB_Crypto_154、SRB_Crypto_155、SRB_Crypto_156、SRB_Crypto_157、SRB_Crypto_158,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+AhsmRsaPkDecPkcsIndexAsync.pCtx:<<null>>
+AhsmRsaPkDecPkcsIndexAsync.padding:1
+AhsmRsaPkDecPkcsIndexAsync.nModLen:1
+AhsmRsaPkDecPkcsIndexAsync.nKeyIndex:0
+AhsmRsaPkDecPkcsIndexAsync.nLen:0
+AhsmRsaPkDecPkcsIndexAsync.ucData:<<null>>
+AhsmRsaPkDecPkcsIndexAsync.pnOutLen:<<null>>
+AhsmRsaPkDecPkcsIndexAsync.ucOutData:<<null>>
+AhsmRsaPkDecPkcsIndexAsync.return:0x37
+",return:0x37
+SUT_Crypto_0188,AhsmRsaPkDecPkcsIndexAsync,SRB_Crypto_153、SRB_Crypto_159、SRB_Crypto_160、SRB_Crypto_161、SRB_Crypto_162,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.return:0
+AhsmRsaPkDecPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.padding:0
+AhsmRsaPkDecPkcsIndexAsync.nModLen:64
+AhsmRsaPkDecPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaPkDecPkcsIndexAsync.nLen:64
+AhsmRsaPkDecPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0189,AhsmRsaPkDecPkcsIndexAsync,SRB_Crypto_153、SRB_Crypto_159、SRB_Crypto_160、SRB_Crypto_161、SRB_Crypto_162,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.pnOutLen[0]:2
+AhsmRsaPkDecIndexAsync.return:0
+AhsmRsaPkDecPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaPkDecPkcsIndexAsync.padding:0
+AhsmRsaPkDecPkcsIndexAsync.nModLen:64
+AhsmRsaPkDecPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaPkDecPkcsIndexAsync.nLen:64
+AhsmRsaPkDecPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.return:0x0
+AhsmPkcs1UnPaddingType1.return:0
+",return:0x0
+SUT_Crypto_0190,AhsmRsaPkDecPkcsIndexAsync,SRB_Crypto_153、SRB_Crypto_159、SRB_Crypto_160、SRB_Crypto_161、SRB_Crypto_162,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.pnOutLen[0]:2
+AhsmRsaPkDecIndexAsync.return:0x33
+AhsmRsaPkDecPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaPkDecPkcsIndexAsync.padding:0
+AhsmRsaPkDecPkcsIndexAsync.nModLen:64
+AhsmRsaPkDecPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaPkDecPkcsIndexAsync.nLen:64
+AhsmRsaPkDecPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.return:0x33
+AhsmPkcs1UnPaddingType1.return:0
+",return:0x33
+SUT_Crypto_0191,AhsmRsaPkDecPkcsIndexAsync,SRB_Crypto_153、SRB_Crypto_159、SRB_Crypto_160、SRB_Crypto_161、SRB_Crypto_162,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkDecIndexAsync.pnOutLen[0]:1
+AhsmRsaPkDecIndexAsync.return:0
+AhsmRsaPkDecPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaPkDecPkcsIndexAsync.padding:0
+AhsmRsaPkDecPkcsIndexAsync.nModLen:64
+AhsmRsaPkDecPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaPkDecPkcsIndexAsync.nLen:64
+AhsmRsaPkDecPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkDecPkcsIndexAsync.return:0x0
+AhsmPkcs1UnPaddingType1.return:0
+",return:0x0
+SUT_Crypto_0169,AhsmRsaPkEncIndexAsync,SRB_Crypto_169,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+AhsmRsaPkEncIndexAsync.pCtx:<<null>>
+AhsmRsaPkEncIndexAsync.nIndex:0
+AhsmRsaPkEncIndexAsync.nLen:0
+AhsmRsaPkEncIndexAsync.ucData:<<null>>
+AhsmRsaPkEncIndexAsync.pnOutLen:<<null>>
+AhsmRsaPkEncIndexAsync.ucOutData:<<null>>
+AhsmRsaPkEncIndexAsync.return:0x31
+",return:0x31
+SUT_Crypto_0170,AhsmRsaPkEncIndexAsync,SRB_Crypto_169,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkEncIndexAsync.nIndex:0x2B
+AhsmRsaPkEncIndexAsync.nLen:64
+AhsmRsaPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0171,AhsmRsaPkEncIndexAsync,SRB_Crypto_169,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkEncIndexAsync.nIndex:0x2B
+AhsmRsaPkEncIndexAsync.nLen:64
+AhsmRsaPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0172,AhsmRsaPkEncIndexAsync,SRB_Crypto_169,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkEncIndexAsync.nIndex:0x2B
+AhsmRsaPkEncIndexAsync.nLen:64
+AhsmRsaPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0173,AhsmRsaPkEncIndexAsync,SRB_Crypto_169,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkEncIndexAsync.nIndex:0x2B
+AhsmRsaPkEncIndexAsync.nLen:64
+AhsmRsaPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0174,AhsmRsaPkEncIndexAsync,SRB_Crypto_169,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkEncIndexAsync.nIndex:0x2B
+AhsmRsaPkEncIndexAsync.nLen:64
+AhsmRsaPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0175,AhsmRsaPkEncIndexAsync,SRB_Crypto_169,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaPkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaPkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaPkEncIndexAsync.nIndex:0x2B
+AhsmRsaPkEncIndexAsync.nLen:64
+AhsmRsaPkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkEncIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0192,AhsmRsaPkEncPkcsIndexAsync,SRB_Crypto_163、SRB_Crypto_164、SRB_Crypto_165、SRB_Crypto_166、SRB_Crypto_167、SRB_Crypto_168,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+AhsmRsaPkEncPkcsIndexAsync.pCtx:<<null>>
+AhsmRsaPkEncPkcsIndexAsync.padding:2
+AhsmRsaPkEncPkcsIndexAsync.nModLen:0
+AhsmRsaPkEncPkcsIndexAsync.nKeyIndex:0
+AhsmRsaPkEncPkcsIndexAsync.nLen:0
+AhsmRsaPkEncPkcsIndexAsync.ucData:<<null>>
+AhsmRsaPkEncPkcsIndexAsync.pnOutLen:<<null>>
+AhsmRsaPkEncPkcsIndexAsync.ucOutData:<<null>>
+AhsmRsaPkEncPkcsIndexAsync.return:0x37
+",return:0x37
+SUT_Crypto_0193,AhsmRsaPkEncPkcsIndexAsync,SRB_Crypto_163、SRB_Crypto_169、SRB_Crypto_170、SRB_Crypto_171、SRB_Crypto_172,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkEncIndexAsync.return:0
+AhsmRsaPkEncPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.padding:0
+AhsmRsaPkEncPkcsIndexAsync.nModLen:64
+AhsmRsaPkEncPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaPkEncPkcsIndexAsync.nLen:0
+AhsmRsaPkEncPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.return:0x0
+AhsmPkcs1PaddingType2.return:0
+",return:0x0
+SUT_Crypto_0194,AhsmRsaPkEncPkcsIndexAsync,SRB_Crypto_163、SRB_Crypto_169、SRB_Crypto_170、SRB_Crypto_171、SRB_Crypto_172,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkEncIndexAsync.return:0
+AhsmRsaPkEncPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.padding:1
+AhsmRsaPkEncPkcsIndexAsync.nModLen:64
+AhsmRsaPkEncPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaPkEncPkcsIndexAsync.nLen:0
+AhsmRsaPkEncPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.return:0x33
+AhsmPkcsOaepPadding.return:0x33
+",return:0x33
+SUT_Crypto_0195,AhsmRsaPkEncPkcsIndexAsync,SRB_Crypto_163、SRB_Crypto_169、SRB_Crypto_170、SRB_Crypto_171、SRB_Crypto_172,Requirements_based_testing,Demand_Analysis,"AhsmRsaPkEncIndexAsync.return:0
+AhsmRsaPkEncPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaPkEncPkcsIndexAsync.padding:0
+AhsmRsaPkEncPkcsIndexAsync.nModLen:64
+AhsmRsaPkEncPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaPkEncPkcsIndexAsync.nLen:0
+AhsmRsaPkEncPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaPkEncPkcsIndexAsync.return:0x0
+AhsmPkcs1PaddingType2.return:0
+",return:0x0
+SUT_Crypto_0162,AhsmRsaSkDecIndexAsync,SRB_Crypto_179,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+AhsmRsaSkDecIndexAsync.pCtx:<<null>>
+AhsmRsaSkDecIndexAsync.nIndex:0
+AhsmRsaSkDecIndexAsync.nLen:0
+AhsmRsaSkDecIndexAsync.ucData:<<null>>
+AhsmRsaSkDecIndexAsync.pnOutLen:<<null>>
+AhsmRsaSkDecIndexAsync.ucOutData:<<null>>
+AhsmRsaSkDecIndexAsync.return:0x31
+",return:0x31
+SUT_Crypto_0163,AhsmRsaSkDecIndexAsync,SRB_Crypto_179,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkDecIndexAsync.nIndex:0x2B
+AhsmRsaSkDecIndexAsync.nLen:64
+AhsmRsaSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0164,AhsmRsaSkDecIndexAsync,SRB_Crypto_179,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkDecIndexAsync.nIndex:0x2B
+AhsmRsaSkDecIndexAsync.nLen:64
+AhsmRsaSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0165,AhsmRsaSkDecIndexAsync,SRB_Crypto_179,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkDecIndexAsync.nIndex:0x2B
+AhsmRsaSkDecIndexAsync.nLen:64
+AhsmRsaSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0166,AhsmRsaSkDecIndexAsync,SRB_Crypto_179,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkDecIndexAsync.nIndex:0x2B
+AhsmRsaSkDecIndexAsync.nLen:64
+AhsmRsaSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0167,AhsmRsaSkDecIndexAsync,SRB_Crypto_179,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkDecIndexAsync.nIndex:0x2B
+AhsmRsaSkDecIndexAsync.nLen:64
+AhsmRsaSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0168,AhsmRsaSkDecIndexAsync,SRB_Crypto_179,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkDecIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkDecIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkDecIndexAsync.nIndex:0x2B
+AhsmRsaSkDecIndexAsync.nLen:64
+AhsmRsaSkDecIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0196,AhsmRsaSkDecPkcsIndexAsync,SRB_Crypto_173、SRB_Crypto_174、SRB_Crypto_175、SRB_Crypto_176、SRB_Crypto_177、SRB_Crypto_178,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+AhsmRsaSkDecPkcsIndexAsync.pCtx:<<null>>
+AhsmRsaSkDecPkcsIndexAsync.padding:2
+AhsmRsaSkDecPkcsIndexAsync.nModLen:0
+AhsmRsaSkDecPkcsIndexAsync.nKeyIndex:0
+AhsmRsaSkDecPkcsIndexAsync.nLen:1
+AhsmRsaSkDecPkcsIndexAsync.ucData:<<null>>
+AhsmRsaSkDecPkcsIndexAsync.pnOutLen:<<null>>
+AhsmRsaSkDecPkcsIndexAsync.ucOutData:<<null>>
+AhsmRsaSkDecPkcsIndexAsync.return:0x37
+",return:0x37
+SUT_Crypto_0197,AhsmRsaSkDecPkcsIndexAsync,SRB_Crypto_173、SRB_Crypto_179、SRB_Crypto_180、SRB_Crypto_181、SRB_Crypto_182,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pnOutLen[0]:2
+AhsmRsaSkDecIndexAsync.return:0x0
+AhsmRsaSkDecPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaSkDecPkcsIndexAsync.padding:0
+AhsmRsaSkDecPkcsIndexAsync.nModLen:64
+AhsmRsaSkDecPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaSkDecPkcsIndexAsync.nLen:64
+AhsmRsaSkDecPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.return:0x0
+AhsmPkcs1UnPaddingType2.return:0
+",return:0x0
+SUT_Crypto_0198,AhsmRsaSkDecPkcsIndexAsync,SRB_Crypto_173、SRB_Crypto_179、SRB_Crypto_180、SRB_Crypto_181、SRB_Crypto_182,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pnOutLen[0]:2
+AhsmRsaSkDecIndexAsync.return:0x0
+AhsmRsaSkDecPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaSkDecPkcsIndexAsync.padding:1
+AhsmRsaSkDecPkcsIndexAsync.nModLen:64
+AhsmRsaSkDecPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaSkDecPkcsIndexAsync.nLen:64
+AhsmRsaSkDecPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.return:0x0
+AhsmPkcsOaepUnPadding.return:0
+AhsmPkcs1UnPaddingType2.return:0
+",return:0x0
+SUT_Crypto_0199,AhsmRsaSkDecPkcsIndexAsync,SRB_Crypto_173、SRB_Crypto_179、SRB_Crypto_180、SRB_Crypto_181、SRB_Crypto_182,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pnOutLen[0]:1
+AhsmRsaSkDecIndexAsync.return:0x0
+AhsmRsaSkDecPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaSkDecPkcsIndexAsync.padding:0
+AhsmRsaSkDecPkcsIndexAsync.nModLen:64
+AhsmRsaSkDecPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaSkDecPkcsIndexAsync.nLen:64
+AhsmRsaSkDecPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.return:0x0
+AhsmPkcs1UnPaddingType2.return:0
+",return:0x0
+SUT_Crypto_0200,AhsmRsaSkDecPkcsIndexAsync,SRB_Crypto_173、SRB_Crypto_179、SRB_Crypto_180、SRB_Crypto_181、SRB_Crypto_182,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pnOutLen[0]:2
+AhsmRsaSkDecIndexAsync.return:0x0
+AhsmRsaSkDecPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkDecPkcsIndexAsync.padding:0
+AhsmRsaSkDecPkcsIndexAsync.nModLen:64
+AhsmRsaSkDecPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaSkDecPkcsIndexAsync.nLen:64
+AhsmRsaSkDecPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.return:0x0
+AhsmPkcs1UnPaddingType2.return:0
+",return:0x0
+SUT_Crypto_0201,AhsmRsaSkDecPkcsIndexAsync,SRB_Crypto_173、SRB_Crypto_179、SRB_Crypto_180、SRB_Crypto_181、SRB_Crypto_182,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkDecIndexAsync.pnOutLen[0]:2
+AhsmRsaSkDecIndexAsync.return:0x33
+AhsmRsaSkDecPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkDecPkcsIndexAsync.padding:0
+AhsmRsaSkDecPkcsIndexAsync.nModLen:64
+AhsmRsaSkDecPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaSkDecPkcsIndexAsync.nLen:64
+AhsmRsaSkDecPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkDecPkcsIndexAsync.return:0x33
+AhsmPkcs1UnPaddingType2.return:0
+",return:0x33
+SUT_Crypto_0155,AhsmRsaSkEncIndexAsync,SRB_Crypto_150,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+AhsmRsaSkEncIndexAsync.pCtx:<<null>>
+AhsmRsaSkEncIndexAsync.nIndex:0
+AhsmRsaSkEncIndexAsync.nLen:0
+AhsmRsaSkEncIndexAsync.ucData:<<null>>
+AhsmRsaSkEncIndexAsync.pnOutLen:<<null>>
+AhsmRsaSkEncIndexAsync.ucOutData:<<null>>
+AhsmRsaSkEncIndexAsync.return:0x31
+",return:0x31
+SUT_Crypto_0156,AhsmRsaSkEncIndexAsync,SRB_Crypto_150,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkEncIndexAsync.nIndex:0x2B
+AhsmRsaSkEncIndexAsync.nLen:64
+AhsmRsaSkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0157,AhsmRsaSkEncIndexAsync,SRB_Crypto_150,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkEncIndexAsync.nIndex:0x2B
+AhsmRsaSkEncIndexAsync.nLen:64
+AhsmRsaSkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0158,AhsmRsaSkEncIndexAsync,SRB_Crypto_150,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkEncIndexAsync.nIndex:0x2B
+AhsmRsaSkEncIndexAsync.nLen:64
+AhsmRsaSkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0159,AhsmRsaSkEncIndexAsync,SRB_Crypto_150,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkEncIndexAsync.nIndex:0x2B
+AhsmRsaSkEncIndexAsync.nLen:64
+AhsmRsaSkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0160,AhsmRsaSkEncIndexAsync,SRB_Crypto_150,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].nFsmState:2
+AhsmRsaSkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkEncIndexAsync.nIndex:0x2B
+AhsmRsaSkEncIndexAsync.nLen:64
+AhsmRsaSkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x93
+SUT_Crypto_0161,AhsmRsaSkEncIndexAsync,SRB_Crypto_150,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkEncIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkEncIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmRsaSkEncIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmRsaSkEncIndexAsync.nIndex:0x2B
+AhsmRsaSkEncIndexAsync.nLen:64
+AhsmRsaSkEncIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkEncIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0183,AhsmRsaSkEncPkcsIndexAsync,SRB_Crypto_143、SRB_Crypto_144、SRB_Crypto_145、SRB_Crypto_146、SRB_Crypto_147、SRB_Crypto_148,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+AhsmRsaSkEncPkcsIndexAsync.pCtx:<<null>>
+AhsmRsaSkEncPkcsIndexAsync.padding:1
+AhsmRsaSkEncPkcsIndexAsync.nModLen:0
+AhsmRsaSkEncPkcsIndexAsync.nKeyIndex:0
+AhsmRsaSkEncPkcsIndexAsync.nLen:0
+AhsmRsaSkEncPkcsIndexAsync.ucData:<<null>>
+AhsmRsaSkEncPkcsIndexAsync.pnOutLen:<<null>>
+AhsmRsaSkEncPkcsIndexAsync.ucOutData:<<null>>
+AhsmRsaSkEncPkcsIndexAsync.return:0x37
+",return:0x37
+SUT_Crypto_0184,AhsmRsaSkEncPkcsIndexAsync,SRB_Crypto_143、SRB_Crypto_149、SRB_Crypto_150、SRB_Crypto_151、SRB_Crypto_152,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkEncIndexAsync.return:0
+AhsmRsaSkEncPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.padding:0
+AhsmRsaSkEncPkcsIndexAsync.nModLen:64
+AhsmRsaSkEncPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaSkEncPkcsIndexAsync.nLen:0
+AhsmRsaSkEncPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.return:0x0
+AhsmPkcs1PaddingType1.return:0
+",return:0x0
+SUT_Crypto_0185,AhsmRsaSkEncPkcsIndexAsync,SRB_Crypto_143、SRB_Crypto_149、SRB_Crypto_150、SRB_Crypto_151、SRB_Crypto_152,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkEncIndexAsync.return:0
+AhsmRsaSkEncPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.pCtx[0].nFsmState:1
+AhsmRsaSkEncPkcsIndexAsync.padding:0
+AhsmRsaSkEncPkcsIndexAsync.nModLen:64
+AhsmRsaSkEncPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaSkEncPkcsIndexAsync.nLen:0
+AhsmRsaSkEncPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.return:0x0
+AhsmPkcs1PaddingType1.return:0
+",return:0x0
+SUT_Crypto_0186,AhsmRsaSkEncPkcsIndexAsync,SRB_Crypto_143、SRB_Crypto_149、SRB_Crypto_150、SRB_Crypto_151、SRB_Crypto_152,Requirements_based_testing,Demand_Analysis,"AhsmRsaSkEncIndexAsync.return:0
+AhsmRsaSkEncPkcsIndexAsync.pCtx:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.padding:0
+AhsmRsaSkEncPkcsIndexAsync.nModLen:64
+AhsmRsaSkEncPkcsIndexAsync.nKeyIndex:0x2B
+AhsmRsaSkEncPkcsIndexAsync.nLen:0
+AhsmRsaSkEncPkcsIndexAsync.ucData:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.pnOutLen:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.ucOutData:<<malloc 1>>
+AhsmRsaSkEncPkcsIndexAsync.return:0x33
+AhsmPkcs1PaddingType1.return:0x33
+",return:0x33
+SUT_Crypto_0202,AhsmShaAsync,SRB_Crypto_183、SRB_Crypto_184、SRB_Crypto_185、SRB_Crypto_186,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+AhsmShaAsync.pCtx:<<null>>
+AhsmShaAsync.nAlg:0
+AhsmShaAsync.nDataLen:0
+AhsmShaAsync.ucData:<<null>>
+AhsmShaAsync.pnHashLen:<<null>>
+AhsmShaAsync.ucHash:<<null>>
+AhsmShaAsync.return:0x31
+",return:0x31
+SUT_Crypto_0203,AhsmShaAsync,SRB_Crypto_183、SRB_Crypto_187、SRB_Crypto_188、SRB_Crypto_189、SRB_Crypto_190,Requirements_based_testing,Demand_Analysis,"AhsmShaAsync.pCtx:<<malloc 1>>
+AhsmShaAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmShaAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmShaAsync.nAlg:3
+AhsmShaAsync.nDataLen:1
+AhsmShaAsync.ucData:<<malloc 1>>
+AhsmShaAsync.pnHashLen:<<malloc 1>>
+AhsmShaAsync.ucHash:<<malloc 1>>
+AhsmShaAsync.return:0x0
+",return:0x0
+SUT_Crypto_0204,AhsmShaAsync,SRB_Crypto_183、SRB_Crypto_187、SRB_Crypto_188、SRB_Crypto_189、SRB_Crypto_190,Requirements_based_testing,Demand_Analysis,"AhsmShaAsync.pCtx:<<malloc 1>>
+AhsmShaAsync.pCtx[0].nFsmState:1
+AhsmShaAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmShaAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmShaAsync.nAlg:3
+AhsmShaAsync.nDataLen:1
+AhsmShaAsync.ucData:<<malloc 1>>
+AhsmShaAsync.pnHashLen:<<malloc 1>>
+AhsmShaAsync.ucHash:<<malloc 1>>
+AhsmShaAsync.return:0x11
+",return:0x11
+SUT_Crypto_0205,AhsmShaAsync,SRB_Crypto_183、SRB_Crypto_187、SRB_Crypto_188、SRB_Crypto_189、SRB_Crypto_190,Requirements_based_testing,Demand_Analysis,"AhsmShaAsync.pCtx:<<malloc 1>>
+AhsmShaAsync.pCtx[0].nFsmState:1
+AhsmShaAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmShaAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmShaAsync.pCtx[0].rcvMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].rcvMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].rcvMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].rcvMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].rcvMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].rcvMsg.pResBody:""1""
+AhsmShaAsync.nAlg:3
+AhsmShaAsync.nDataLen:1
+AhsmShaAsync.ucData:<<malloc 1>>
+AhsmShaAsync.pnHashLen:<<malloc 1>>
+AhsmShaAsync.ucHash:<<malloc 1>>
+AhsmShaAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0206,AhsmShaAsync,SRB_Crypto_183、SRB_Crypto_187、SRB_Crypto_188、SRB_Crypto_189、SRB_Crypto_190,Requirements_based_testing,Demand_Analysis,"AhsmShaAsync.pCtx:<<malloc 1>>
+AhsmShaAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmShaAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmShaAsync.nAlg:3
+AhsmShaAsync.nDataLen:512
+AhsmShaAsync.ucData:<<malloc 1>>
+AhsmShaAsync.pnHashLen:<<malloc 1>>
+AhsmShaAsync.ucHash:<<malloc 1>>
+AhsmShaAsync.return:0x0
+",return:0x0
+SUT_Crypto_0207,AhsmShaAsync,SRB_Crypto_183、SRB_Crypto_187、SRB_Crypto_188、SRB_Crypto_189、SRB_Crypto_190,Requirements_based_testing,Demand_Analysis,"AhsmShaAsync.pCtx:<<malloc 1>>
+AhsmShaAsync.pCtx[0].nFsmState:1
+AhsmShaAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmShaAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmShaAsync.pCtx[0].rcvMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].rcvMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].rcvMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].rcvMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].rcvMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].rcvMsg.pResBody:""1""
+AhsmShaAsync.nAlg:3
+AhsmShaAsync.nDataLen:1
+AhsmShaAsync.ucData:<<malloc 1>>
+AhsmShaAsync.pnHashLen:<<malloc 1>>
+AhsmShaAsync.ucHash:<<malloc 1>>
+AhsmShaAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0208,AhsmShaAsync,SRB_Crypto_183、SRB_Crypto_187、SRB_Crypto_188、SRB_Crypto_189、SRB_Crypto_190,Requirements_based_testing,Demand_Analysis,"AhsmShaAsync.pCtx:<<malloc 1>>
+AhsmShaAsync.pCtx[0].nFsmState:2
+AhsmShaAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmShaAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmShaAsync.pCtx[0].rcvMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].rcvMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].rcvMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].rcvMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].rcvMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].rcvMsg.pResBody:""1""
+AhsmShaAsync.nAlg:3
+AhsmShaAsync.nDataLen:1
+AhsmShaAsync.ucData:<<malloc 1>>
+AhsmShaAsync.pnHashLen:<<malloc 1>>
+AhsmShaAsync.ucHash:<<malloc 1>>
+AhsmShaAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x93
+SUT_Crypto_0209,AhsmShaAsync,SRB_Crypto_183、SRB_Crypto_187、SRB_Crypto_188、SRB_Crypto_189、SRB_Crypto_190,Requirements_based_testing,Demand_Analysis,"AhsmShaAsync.pCtx:<<malloc 1>>
+AhsmShaAsync.pCtx[0].nFsmState:1
+AhsmShaAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmShaAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmShaAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmShaAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmShaAsync.nAlg:3
+AhsmShaAsync.nDataLen:1
+AhsmShaAsync.ucData:<<malloc 1>>
+AhsmShaAsync.pnHashLen:<<malloc 1>>
+AhsmShaAsync.ucHash:<<malloc 1>>
+AhsmShaAsync.return:0x0
+",return:0x0
+SUT_Crypto_0210,AhsmSm3Async,SRB_Crypto_191、SRB_Crypto_192、SRB_Crypto_193,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x31
+AhsmSm3Async.pCtx:<<null>>
+AhsmSm3Async.nDataLen:0
+AhsmSm3Async.ucData:<<null>>
+AhsmSm3Async.ucHash:<<null>>
+AhsmSm3Async.return:0x31
+",return:0x31
+SUT_Crypto_0211,AhsmSm3Async,SRB_Crypto_191、SRB_Crypto_194、SRB_Crypto_195、SRB_Crypto_196、SRB_Crypto_197,Requirements_based_testing,Demand_Analysis,"AhsmSm3Async.pCtx:<<malloc 1>>
+AhsmSm3Async.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm3Async.pCtx[0].sndMsg.nRetCode:1
+AhsmSm3Async.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm3Async.nDataLen:256
+AhsmSm3Async.ucData:<<malloc 1>>
+AhsmSm3Async.ucHash:<<malloc 1>>
+AhsmSm3Async.return:0x0
+",return:0x0
+SUT_Crypto_0212,AhsmSm3Async,SRB_Crypto_191、SRB_Crypto_194、SRB_Crypto_195、SRB_Crypto_196、SRB_Crypto_197,Requirements_based_testing,Demand_Analysis,"AhsmSm3Async.pCtx:<<malloc 1>>
+AhsmSm3Async.pCtx[0].nFsmState:1
+AhsmSm3Async.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm3Async.pCtx[0].sndMsg.nRetCode:1
+AhsmSm3Async.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm3Async.nDataLen:256
+AhsmSm3Async.ucData:<<malloc 1>>
+AhsmSm3Async.ucHash:<<malloc 1>>
+AhsmSm3Async.return:0x11
+",return:0x11
+SUT_Crypto_0213,AhsmSm3Async,SRB_Crypto_191、SRB_Crypto_194、SRB_Crypto_195、SRB_Crypto_196、SRB_Crypto_197,Requirements_based_testing,Demand_Analysis,"AhsmSm3Async.pCtx:<<malloc 1>>
+AhsmSm3Async.pCtx[0].nFsmState:1
+AhsmSm3Async.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm3Async.pCtx[0].sndMsg.nRetCode:1
+AhsmSm3Async.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm3Async.nDataLen:256
+AhsmSm3Async.ucData:<<malloc 1>>
+AhsmSm3Async.ucHash:<<malloc 1>>
+AhsmSm3Async.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0214,AhsmSm3Async,SRB_Crypto_191、SRB_Crypto_194、SRB_Crypto_195、SRB_Crypto_196、SRB_Crypto_197,Requirements_based_testing,Demand_Analysis,"AhsmSm3Async.pCtx:<<malloc 1>>
+AhsmSm3Async.pCtx[0].nFsmState:1
+AhsmSm3Async.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm3Async.pCtx[0].sndMsg.nRetCode:1
+AhsmSm3Async.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm3Async.nDataLen:256
+AhsmSm3Async.ucData:<<malloc 1>>
+AhsmSm3Async.ucHash:<<malloc 1>>
+AhsmSm3Async.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0
+",return:0x33
+SUT_Crypto_0215,AhsmSm3Async,SRB_Crypto_191、SRB_Crypto_192、SRB_Crypto_193,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"AhsmSm3Async.pCtx:<<malloc 1>>
+AhsmSm3Async.pCtx[0].nFsmState:2
+AhsmSm3Async.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm3Async.pCtx[0].sndMsg.nRetCode:1
+AhsmSm3Async.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm3Async.nDataLen:256
+AhsmSm3Async.ucData:<<malloc 1>>
+AhsmSm3Async.ucHash:<<malloc 1>>
+AhsmSm3Async.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0216,AhsmSm3Async,SRB_Crypto_191、SRB_Crypto_192、SRB_Crypto_193,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"AhsmSm3Async.pCtx:<<malloc 1>>
+AhsmSm3Async.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm3Async.pCtx[0].sndMsg.nRetCode:1
+AhsmSm3Async.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm3Async.nDataLen:512
+AhsmSm3Async.ucData:<<malloc 1>>
+AhsmSm3Async.ucHash:<<malloc 1>>
+AhsmSm3Async.return:0x0
+",return:0x0
+SUT_Crypto_0217,AhsmSm3Async,SRB_Crypto_191、SRB_Crypto_194、SRB_Crypto_195、SRB_Crypto_196、SRB_Crypto_197,Requirements_based_testing,Demand_Analysis,"AhsmSm3Async.pCtx:<<malloc 1>>
+AhsmSm3Async.pCtx[0].nFsmState:1
+AhsmSm3Async.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm3Async.pCtx[0].sndMsg.nRetCode:1
+AhsmSm3Async.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm3Async.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm3Async.nDataLen:256
+AhsmSm3Async.ucData:<<malloc 1>>
+AhsmSm3Async.ucHash:<<malloc 1>>
+AhsmSm3Async.return:0x0
+",return:0x0
+SUT_Crypto_0218,AhsmSm4EcbIndexAsync,SRB_Crypto_198、SRB_Crypto_199、SRB_Crypto_200、SRB_Crypto_201、SRB_Crypto_202,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+AhsmSm4EcbIndexAsync.pCtx:<<null>>
+AhsmSm4EcbIndexAsync.nEncFlag:2
+AhsmSm4EcbIndexAsync.nKeyIndex:0xFF
+AhsmSm4EcbIndexAsync.nDataLen:0
+AhsmSm4EcbIndexAsync.ucData:<<null>>
+AhsmSm4EcbIndexAsync.pnOutLen:<<null>>
+AhsmSm4EcbIndexAsync.ucOutData:<<null>>
+AhsmSm4EcbIndexAsync.return:0x37
+",return:0x37
+SUT_Crypto_0219,AhsmSm4EcbIndexAsync,SRB_Crypto_198、SRB_Crypto_203、SRB_Crypto_204、SRB_Crypto_205、SRB_Crypto_206,Requirements_based_testing,Demand_Analysis,"AhsmSm4EcbIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4EcbIndexAsync.nEncFlag:0
+AhsmSm4EcbIndexAsync.nKeyIndex:0x0
+AhsmSm4EcbIndexAsync.nDataLen:32
+AhsmSm4EcbIndexAsync.ucData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4EcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0220,AhsmSm4EcbIndexAsync,SRB_Crypto_198、SRB_Crypto_203、SRB_Crypto_204、SRB_Crypto_205、SRB_Crypto_206,Requirements_based_testing,Demand_Analysis,"AhsmSm4EcbIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4EcbIndexAsync.nEncFlag:0
+AhsmSm4EcbIndexAsync.nKeyIndex:0x0
+AhsmSm4EcbIndexAsync.nDataLen:512
+AhsmSm4EcbIndexAsync.ucData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4EcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0221,AhsmSm4EcbIndexAsync,SRB_Crypto_198、SRB_Crypto_203、SRB_Crypto_204、SRB_Crypto_205、SRB_Crypto_206,Requirements_based_testing,Demand_Analysis,"AhsmSm4EcbIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4EcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4EcbIndexAsync.nEncFlag:0
+AhsmSm4EcbIndexAsync.nKeyIndex:0x0
+AhsmSm4EcbIndexAsync.nDataLen:32
+AhsmSm4EcbIndexAsync.ucData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4EcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0222,AhsmSm4EcbIndexAsync,SRB_Crypto_198、SRB_Crypto_203、SRB_Crypto_204、SRB_Crypto_205、SRB_Crypto_206,Requirements_based_testing,Demand_Analysis,"AhsmSm4EcbIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4EcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4EcbIndexAsync.nEncFlag:0
+AhsmSm4EcbIndexAsync.nKeyIndex:0x0
+AhsmSm4EcbIndexAsync.nDataLen:32
+AhsmSm4EcbIndexAsync.ucData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4EcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueueHsmStatus.return:0
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0223,AhsmSm4EcbIndexAsync,SRB_Crypto_198、SRB_Crypto_203、SRB_Crypto_204、SRB_Crypto_205、SRB_Crypto_206,Requirements_based_testing,Demand_Analysis,"AhsmSm4EcbIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4EcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4EcbIndexAsync.nEncFlag:0
+AhsmSm4EcbIndexAsync.nKeyIndex:0x0
+AhsmSm4EcbIndexAsync.nDataLen:32
+AhsmSm4EcbIndexAsync.ucData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4EcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueueHsmStatus.return:0
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0224,AhsmSm4EcbIndexAsync,SRB_Crypto_198、SRB_Crypto_203、SRB_Crypto_204、SRB_Crypto_205、SRB_Crypto_206,Requirements_based_testing,Demand_Analysis,"AhsmSm4EcbIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4EcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4EcbIndexAsync.nEncFlag:0
+AhsmSm4EcbIndexAsync.nKeyIndex:0x0
+AhsmSm4EcbIndexAsync.nDataLen:512
+AhsmSm4EcbIndexAsync.ucData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4EcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueueHsmStatus.return:0
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0225,AhsmSm4EcbIndexAsync,SRB_Crypto_198、SRB_Crypto_203、SRB_Crypto_204、SRB_Crypto_205、SRB_Crypto_206,Requirements_based_testing,Demand_Analysis,"AhsmSm4EcbIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].nFsmState:2
+AhsmSm4EcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4EcbIndexAsync.nEncFlag:0
+AhsmSm4EcbIndexAsync.nKeyIndex:0x0
+AhsmSm4EcbIndexAsync.nDataLen:512
+AhsmSm4EcbIndexAsync.ucData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4EcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueueHsmStatus.return:0
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0226,AhsmSm4EcbIndexAsync,SRB_Crypto_198、SRB_Crypto_203、SRB_Crypto_204、SRB_Crypto_205、SRB_Crypto_206,Requirements_based_testing,Demand_Analysis,"AhsmSm4EcbIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4EcbIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4EcbIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4EcbIndexAsync.nEncFlag:0
+AhsmSm4EcbIndexAsync.nKeyIndex:0x0
+AhsmSm4EcbIndexAsync.nDataLen:32
+AhsmSm4EcbIndexAsync.ucData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4EcbIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4EcbIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0227,AhsmSm4ModesIndexAsync,SRB_Crypto_207、SRB_Crypto_208、SRB_Crypto_209、SRB_Crypto_210、SRB_Crypto_211,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x37
+AhsmSm4ModesIndexAsync.pCtx:<<null>>
+AhsmSm4ModesIndexAsync.nEncFlag:2
+AhsmSm4ModesIndexAsync.nMode:3
+AhsmSm4ModesIndexAsync.nKeyIndex:0xFF
+AhsmSm4ModesIndexAsync.ucIv:<<null>>
+AhsmSm4ModesIndexAsync.nDataLen:0
+AhsmSm4ModesIndexAsync.ucData:<<null>>
+AhsmSm4ModesIndexAsync.pnOutLen:<<null>>
+AhsmSm4ModesIndexAsync.ucOutData:<<null>>
+AhsmSm4ModesIndexAsync.return:0x37
+",return:0x37
+SUT_Crypto_0228,AhsmSm4ModesIndexAsync,SRB_Crypto_207、SRB_Crypto_212、SRB_Crypto_213、SRB_Crypto_214、SRB_Crypto_215、SRB_Crypto_216,Requirements_based_testing,Demand_Analysis,"AhsmSm4ModesIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4ModesIndexAsync.nEncFlag:0
+AhsmSm4ModesIndexAsync.nMode:0
+AhsmSm4ModesIndexAsync.nKeyIndex:0x0
+AhsmSm4ModesIndexAsync.ucIv:<<malloc 1>>
+AhsmSm4ModesIndexAsync.nDataLen:256
+AhsmSm4ModesIndexAsync.ucData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4ModesIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0229,AhsmSm4ModesIndexAsync,SRB_Crypto_207、SRB_Crypto_212、SRB_Crypto_213、SRB_Crypto_214、SRB_Crypto_215、SRB_Crypto_216,Requirements_based_testing,Demand_Analysis,"AhsmSm4ModesIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4ModesIndexAsync.nEncFlag:0
+AhsmSm4ModesIndexAsync.nMode:0
+AhsmSm4ModesIndexAsync.nKeyIndex:0x0
+AhsmSm4ModesIndexAsync.ucIv:<<malloc 1>>
+AhsmSm4ModesIndexAsync.nDataLen:512
+AhsmSm4ModesIndexAsync.ucData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4ModesIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0230,AhsmSm4ModesIndexAsync,SRB_Crypto_207、SRB_Crypto_212、SRB_Crypto_213、SRB_Crypto_214、SRB_Crypto_215、SRB_Crypto_216,Requirements_based_testing,Demand_Analysis,"AhsmSm4ModesIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4ModesIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4ModesIndexAsync.nEncFlag:0
+AhsmSm4ModesIndexAsync.nMode:0
+AhsmSm4ModesIndexAsync.nKeyIndex:0x0
+AhsmSm4ModesIndexAsync.ucIv:<<malloc 1>>
+AhsmSm4ModesIndexAsync.nDataLen:256
+AhsmSm4ModesIndexAsync.ucData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4ModesIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.return:0x11
+",return:0x11
+SUT_Crypto_0231,AhsmSm4ModesIndexAsync,SRB_Crypto_207、SRB_Crypto_212、SRB_Crypto_213、SRB_Crypto_214、SRB_Crypto_215、SRB_Crypto_216,Requirements_based_testing,Demand_Analysis,"AhsmSm4ModesIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4ModesIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4ModesIndexAsync.nEncFlag:0
+AhsmSm4ModesIndexAsync.nMode:0
+AhsmSm4ModesIndexAsync.nKeyIndex:0x0
+AhsmSm4ModesIndexAsync.ucIv:<<malloc 1>>
+AhsmSm4ModesIndexAsync.nDataLen:256
+AhsmSm4ModesIndexAsync.ucData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4ModesIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0232,AhsmSm4ModesIndexAsync,SRB_Crypto_207、SRB_Crypto_212、SRB_Crypto_213、SRB_Crypto_214、SRB_Crypto_215、SRB_Crypto_216,Requirements_based_testing,Demand_Analysis,"AhsmSm4ModesIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4ModesIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4ModesIndexAsync.nEncFlag:0
+AhsmSm4ModesIndexAsync.nMode:0
+AhsmSm4ModesIndexAsync.nKeyIndex:0x0
+AhsmSm4ModesIndexAsync.ucIv:<<malloc 1>>
+AhsmSm4ModesIndexAsync.nDataLen:256
+AhsmSm4ModesIndexAsync.ucData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4ModesIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.return:0x33
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0x33
+AhsmMsgParse.return:0x33
+",return:0x33
+SUT_Crypto_0233,AhsmSm4ModesIndexAsync,SRB_Crypto_207、SRB_Crypto_212、SRB_Crypto_213、SRB_Crypto_214、SRB_Crypto_215、SRB_Crypto_216,Requirements_based_testing,Demand_Analysis,"AhsmSm4ModesIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4ModesIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4ModesIndexAsync.nEncFlag:0
+AhsmSm4ModesIndexAsync.nMode:0
+AhsmSm4ModesIndexAsync.nKeyIndex:0x0
+AhsmSm4ModesIndexAsync.ucIv:<<malloc 1>>
+AhsmSm4ModesIndexAsync.nDataLen:512
+AhsmSm4ModesIndexAsync.ucData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4ModesIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.return:0x0
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x0
+SUT_Crypto_0234,AhsmSm4ModesIndexAsync,SRB_Crypto_207、SRB_Crypto_212、SRB_Crypto_213、SRB_Crypto_214、SRB_Crypto_215、SRB_Crypto_216,Requirements_based_testing,Demand_Analysis,"AhsmSm4ModesIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].nFsmState:2
+AhsmSm4ModesIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4ModesIndexAsync.nEncFlag:0
+AhsmSm4ModesIndexAsync.nMode:0
+AhsmSm4ModesIndexAsync.nKeyIndex:0x0
+AhsmSm4ModesIndexAsync.ucIv:<<malloc 1>>
+AhsmSm4ModesIndexAsync.nDataLen:512
+AhsmSm4ModesIndexAsync.ucData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4ModesIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.return:0x93
+AhsmGetQueueHsmStatus.pnStatus[0]:2
+AhsmGetQueuePlainResData.return:0
+AhsmMsgParse.return:0
+",return:0x93
+SUT_Crypto_0235,AhsmSm4ModesIndexAsync,SRB_Crypto_207、SRB_Crypto_212、SRB_Crypto_213、SRB_Crypto_214、SRB_Crypto_215、SRB_Crypto_216,Requirements_based_testing,Demand_Analysis,"AhsmSm4ModesIndexAsync.pCtx:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].nFsmState:1
+AhsmSm4ModesIndexAsync.pCtx[0].pJobItem:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nRetCode:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.nBodyLen:1
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pReqBody:""1""
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:<<malloc 2>>
+AhsmSm4ModesIndexAsync.pCtx[0].sndMsg.pResBody:""1""
+AhsmSm4ModesIndexAsync.nEncFlag:0
+AhsmSm4ModesIndexAsync.nMode:0
+AhsmSm4ModesIndexAsync.nKeyIndex:0x0
+AhsmSm4ModesIndexAsync.ucIv:<<malloc 1>>
+AhsmSm4ModesIndexAsync.nDataLen:256
+AhsmSm4ModesIndexAsync.ucData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.pnOutLen:<<malloc 1>>
+AhsmSm4ModesIndexAsync.ucOutData:<<malloc 1>>
+AhsmSm4ModesIndexAsync.return:0x0
+",return:0x0
+SUT_Crypto_0242,AhsmDeleteCert,SRB_Crypto_217,Interface_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmDeleteCert.nIndex:6
+AhsmDeleteCert.return:0x7278003A
+",return:0x7278003A
+SUT_Crypto_0243,AhsmDeleteCert,SRB_Crypto_217,Interface_Test,Demand_Analysis,"AhsmDeleteCert.nIndex:0
+AhsmDeleteCert.return:0x72780000
+AhsmSendRecvMsg.return:0
+",return:0x72780000
+SUT_Crypto_0239,AhsmExportCert,SRB_Crypto_226、SRB_Crypto_227、SRB_Crypto_228,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmExportCert.nIndex:0x6
+AhsmExportCert.pnCertType:<<null>>
+AhsmExportCert.pnKeyIndex:<<null>>
+AhsmExportCert.pnCertLen:<<null>>
+AhsmExportCert.ucCert:<<null>>
+AhsmExportCert.return:0x7277003A
+",return:0x7277003A
+SUT_Crypto_0240,AhsmExportCert,SRB_Crypto_226、SRB_Crypto_229、SRB_Crypto_230、SRB_Crypto_231,Requirements_based_testing,Demand_Analysis,"AhsmExportCert.nIndex:0x0
+AhsmExportCert.pnCertType:<<malloc 1>>
+AhsmExportCert.pnKeyIndex:<<malloc 1>>
+AhsmExportCert.pnCertLen:<<malloc 1>>
+AhsmExportCert.ucCert:<<malloc 1>>
+AhsmExportCert.return:0x72770000
+AhsmSendRecvMsg.return:0
+",return:0x72770000
+SUT_Crypto_0241,AhsmExportCert,SRB_Crypto_226、SRB_Crypto_229、SRB_Crypto_230、SRB_Crypto_231,Requirements_based_testing,Demand_Analysis,"AhsmExportCert.nIndex:0x0
+AhsmExportCert.pnCertType:<<malloc 1>>
+AhsmExportCert.pnKeyIndex:<<malloc 1>>
+AhsmExportCert.pnCertLen:<<malloc 1>>
+AhsmExportCert.ucCert:<<malloc 1>>
+AhsmExportCert.return:0x72770033
+AhsmSendRecvMsg.return:0x33
+",return:0x72770033
+SUT_Crypto_0236,AhsmImportCert,SRB_Crypto_217、SRB_Crypto_218、SRB_Crypto_219、SRB_Crypto_220、SRB_Crypto_221、SRB_Crypto_222,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmImportCert.nIndex:6
+AhsmImportCert.nKeyIndex:0
+AhsmImportCert.nCertType:6
+AhsmImportCert.nCertLen:3000
+AhsmImportCert.ucCert:<<null>>
+AhsmImportCert.return:0x7276003A
+",return:0x7276003A
+SUT_Crypto_0237,AhsmImportCert,SRB_Crypto_217、SRB_Crypto_223、SRB_Crypto_224、SRB_Crypto_225,Requirements_based_testing,Demand_Analysis,"AhsmImportCert.nIndex:0
+AhsmImportCert.nKeyIndex:0x2B
+AhsmImportCert.nCertType:0
+AhsmImportCert.nCertLen:256
+AhsmImportCert.ucCert:<<malloc 1>>
+AhsmImportCert.return:0x72760033
+AhsmPutShort.ucData:""1""
+AhsmPutShort.nValue:1
+AhsmSendRecvMsg.return:0x33
+AhsmMemCpy.ucDst:""1""
+AhsmMemCpy.ucSrc:""1""
+AhsmMemCpy.nCount:1
+",return:0x72760033
+SUT_Crypto_0238,AhsmImportCert,SRB_Crypto_217、SRB_Crypto_223、SRB_Crypto_224、SRB_Crypto_225,Requirements_based_testing,Demand_Analysis,"AhsmImportCert.nIndex:0
+AhsmImportCert.nKeyIndex:0x2B
+AhsmImportCert.nCertType:0
+AhsmImportCert.nCertLen:256
+AhsmImportCert.ucCert:<<malloc 1>>
+AhsmImportCert.return:0x72760000
+AhsmPutShort.ucData:""1""
+AhsmPutShort.nValue:1
+AhsmSendRecvMsg.return:0x0
+AhsmMemCpy.ucDst:""1""
+AhsmMemCpy.ucSrc:""1""
+AhsmMemCpy.nCount:1
+",return:0x72760000
+SUT_Crypto_0246,AhsmParseCert,SRB_Crypto_237、SRB_Crypto_238,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmParseCert.nIndex:6
+AhsmParseCert.return:0x727A003A
+",return:0x727A003A
+SUT_Crypto_0247,AhsmParseCert,SRB_Crypto_237、SRB_Crypto_239、SRB_Crypto_240、SRB_Crypto_241,Requirements_based_testing,Demand_Analysis,"AhsmParseCert.nIndex:0
+AhsmParseCert.return:0x727A0000
+AhsmSendRecvMsg.return:0
+",return:0x727A0000
+SUT_Crypto_0244,AhsmVerifyCert,SRB_Crypto_232、SRB_Crypto_233,Fault_Injection_Test,Generation_Analysis_Of_Equivalence_Classes,"Crypto_Drv_PriParaCheck.RetVal[0]:0x3A
+AhsmVerifyCert.nCaIndex:6
+AhsmVerifyCert.nIndex:6
+AhsmVerifyCert.return:0x7279003A
+",return:0x7279003A
+SUT_Crypto_0245,AhsmVerifyCert,SRB_Crypto_232、SRB_Crypto_234、SRB_Crypto_235、SRB_Crypto_236,Requirements_based_testing,Demand_Analysis,"AhsmVerifyCert.nCaIndex:0
+AhsmVerifyCert.nIndex:0
+AhsmVerifyCert.return:0x72790000
+AhsmSendRecvMsg.return:0
+",return:0x72790000

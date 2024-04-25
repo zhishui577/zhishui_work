@@ -1,0 +1,480 @@
+<!-- STM -->
+    <peripheral>      						<!-- STM Device -->
+      <name>TT_STM</name>
+      <description>STM Device</description>
+      <baseAddress>0x400A2000</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x1000</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <interrupt>
+        <name>STM0</name>
+        <description>Timer Interrupt</description>
+        <value>129</value>
+      </interrupt>
+      <interrupt>
+        <name>STM1</name>
+        <description>Timer Interrupt</description>
+        <value>130</value>
+      </interrupt>
+      <registers>
+        <register>          <!-- Timer Clock Register -->
+          <name>CLC</name>
+          <description>Clock Control Register</description>
+          <addressOffset>0x0</addressOffset>
+          <access>read-write</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0x3</resetMask>
+            <fields>
+              <field>
+                <name>DISR</name>
+                <description>STM disable/enable config</description>
+                <bitRange>[0:0]</bitRange>              
+              </field>
+              <field>
+                <name>EDIS</name>
+                <description>enable/disable timer count.</description>
+                <bitRange>[1:1]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved0</name>
+                <description>Reserved0.</description>
+                <bitRange>[3:2]</bitRange>              
+              </field>
+              <field>
+                <name>TRIG_OUT</name>
+                <description>enable trig out.</description>
+                <bitRange>[5:4]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved1</name>
+                <description>Reserved1.</description>
+                <bitRange>[31:6]</bitRange>              
+              </field>
+
+            </fields>          
+		  </register>
+        <register>          <!-- Timer ID Register -->
+          <name>ID</name>
+          <description>Timer ID Register</description>
+          <addressOffset>0x8</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x66002011</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+          <fields>
+              <field>
+                <name>CODE_VERSION</name>
+                <description>CODE VERSION</description>
+                <bitRange>[7:0]</bitRange>              
+              </field>
+              <field>
+                <name>WIDTH</name>
+                <description>WIDTH</description>
+                <bitRange>[15:8]</bitRange>              
+              </field>
+              <field>
+                <name>Module_ID</name>
+                <description>Module ID</description>
+                <bitRange>[31:16]</bitRange>              
+              </field>
+ 			    </fields>
+        </register>
+        <register>          <!-- Timer Register -->
+          <name>TIM0</name>
+          <description>Timer0 Register</description>
+          <addressOffset>0x10</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STM_31_0</name>
+                <description>STM_31_0</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+ 			  </fields>
+       </register>
+        <register>          <!-- Timer Register -->
+          <name>TIM1</name>
+          <description>Timer1 Register</description>
+          <addressOffset>0x14</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STM_35_4</name>
+                <description>STM_35_4</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          <!-- Timer Register -->
+          <name>TIM2</name>
+          <description>Timer2 Register</description>
+          <addressOffset>0x18</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STM_39_8</name>
+                <description>STM_39_8</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          <!-- Timer Register -->
+          <name>TIM3</name>
+          <description>Timer1 Register</description>
+          <addressOffset>0x1C</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STM_43_12</name>
+                <description>STM_43_12</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          <!-- Timer Register -->
+          <name>TIM4</name>
+          <description>Timer4 Register</description>
+          <addressOffset>0x20</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STM_47_16</name>
+                <description>STM_47_16</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          <!-- Timer Register -->
+          <name>TIM5</name>
+          <description>Timer5 Register</description>
+          <addressOffset>0x24</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STM_51_20</name>
+                <description>STM_51_20</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+ 			  </fields>
+       </register>
+        <register>          <!-- Timer Register -->
+          <name>TIM6</name>
+          <description>Timer6 Register</description>
+          <addressOffset>0x28</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STM_63_32</name>
+                <description>STM_63_32</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          
+          <name>CAP</name>
+          <description>CAP Register</description>
+          <addressOffset>0x2C</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STMCAP_63_32</name>
+                <description>STMCAP_63_32</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          
+          <name>CMP0</name>
+          <description>CMP0 Register</description>
+          <addressOffset>0x30</addressOffset>
+          <access>read-write</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>CMP0</name>
+                <description>CMP0</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          
+          <name>CMP1</name>
+          <description>CMP1 Register</description>
+          <addressOffset>0x34</addressOffset>
+          <access>read-write</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>CMP1</name>
+                <description>CMP1</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          
+          <name>CMCON</name>
+          <description>CMCON Register</description>
+          <addressOffset>0x38</addressOffset>
+          <access>read-write</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>MSIZE0</name>
+                <description>MSIZE0</description>
+                <bitRange>[4:0]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved0</name>
+                <description>Reserved0 [7:5]</description>
+                <bitRange>[7:5]</bitRange>              
+              </field>
+              <field>
+                <name>MSTART0</name>
+                <description>MSTART0</description>
+                <bitRange>[12:8]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved1</name>
+                <description>Reserved1 [15:13]</description>
+                <bitRange>[15:13]</bitRange>              
+              </field>
+              <field>
+                <name>MSIZE1</name>
+                <description>MSIZE1</description>
+                <bitRange>[20:16]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved2</name>
+                <description>Reserved2 [23:21]</description>
+                <bitRange>[23:21]</bitRange>              
+              </field>
+              <field>
+                <name>MSTART1</name>
+                <description>MSTART1</description>
+                <bitRange>[28:24]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved3</name>
+                <description>Reserved3 [31:29]</description>
+                <bitRange>[31:29]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          
+          <name>ICR</name>
+          <description>Interrupt Control Register</description>
+          <addressOffset>0x3C</addressOffset>
+          <access>read-write</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>CMP0EN</name>
+                <description>CMP0EN</description>
+                <bitRange>[0:0]</bitRange>              
+              </field>
+              <field>
+                <name>CMP0IR</name>
+                <description>CMP0IR</description>
+                <bitRange>[1:1]</bitRange>              
+              </field>
+              <field>
+                <name>CMP0OS</name>
+                <description>CMP0 Out Select</description>
+                <bitRange>[2:2]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved0</name>
+                <description>Reserved0 [3:3]</description>
+                <bitRange>[3:3]</bitRange>              
+              </field>
+              <field>
+                <name>CMP1EN</name>
+                <description>CMP1EN</description>
+                <bitRange>[4:4]</bitRange>              
+              </field>
+              <field>
+                <name>CMP1IR</name>
+                <description>CMP1IR</description>
+                <bitRange>[5:5]</bitRange>              
+              </field>
+              <field>
+                <name>CMP1OS</name>
+                <description>CMP1 Out Select</description>
+                <bitRange>[6:6]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved1</name>
+                <description>Reserved1 [30:7]</description>
+                <bitRange>[30:7]</bitRange>              
+              </field>
+              <field>
+                <name>OVERFOLW</name>
+                <description>OVERFOLW</description>
+                <bitRange>[31:31]</bitRange>              
+              </field>
+			</fields>
+        </register>
+        <register>          
+          <name>ISCR</name>
+          <description>Interrupt Set/Clear Register</description>
+          <addressOffset>0x40</addressOffset>
+          <access>write-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>CMP0IRR</name>
+                <description>CMP0IRR</description>
+                <bitRange>[0:0]</bitRange>              
+              </field>
+              <field>
+                <name>CMP0ORS</name>
+                <description>CMP0ORS</description>
+                <bitRange>[1:1]</bitRange>              
+              </field>
+              <field>
+                <name>CMP1IRR</name>
+                <description>CMP1IRR</description>
+                <bitRange>[2:2]</bitRange>              
+              </field>
+              <field>
+                <name>CMP1ORS</name>
+                <description>CMP1ORS</description>
+                <bitRange>[3:3]</bitRange>              
+              </field>
+              <field>
+                <name>OV_CLREA</name>
+                <description>OV_CLREA</description>
+                <bitRange>[4:4]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved0</name>
+                <description>Reserved0 [31:5]</description>
+                <bitRange>[31:5]</bitRange>              
+              </field>
+			</fields>
+        </register>
+        <register>          
+          <name>TIM0SV</name>
+          <description>TIM0SV Register</description>
+          <addressOffset>0x50</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STM_31_0</name>
+                <description>STM_31_0</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          
+          <name>CAPSV</name>
+          <description>CAPSV Register</description>
+          <addressOffset>0x54</addressOffset>
+          <access>read-only</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>STMCAP_63_32</name>
+                <description>STMCAP_63_32</description>
+                <bitRange>[31:0]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        <register>          
+          <name>OCS</name>
+          <description>OCD Mode Control Register</description>
+          <addressOffset>0xE8</addressOffset>
+          <access>read-write</access>
+          <resetValue>0x0</resetValue>
+		<size>32</size>
+
+          <resetMask>0xFFFFFFFF</resetMask>
+            <fields>
+              <field>
+                <name>Reserved0</name>
+                <description>Reserved0 [23:0]</description>
+                <bitRange>[23:0]</bitRange>              
+              </field>
+              <field>
+                <name>SUS</name>
+                <description>OCDS pause Control</description>
+                <bitRange>[27:24]</bitRange>              
+              </field>
+              <field>
+                <name>SUS_P</name>
+                <description>SUS write protect Control</description>
+                <bitRange>[28:28]</bitRange>              
+              </field>
+              <field>
+                <name>SUSSTA</name>
+                <description>OCD Mode status</description>
+                <bitRange>[29:29]</bitRange>              
+              </field>
+              <field>
+                <name>Reserved1</name>
+                <description>Reserved1 [31:30]</description>
+                <bitRange>[31:30]</bitRange>              
+              </field>
+			  </fields>
+        </register>
+        </registers>
+        <peripheral> 
