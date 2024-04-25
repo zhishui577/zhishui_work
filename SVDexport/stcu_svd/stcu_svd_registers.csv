@@ -1,0 +1,9 @@
+名称,描述,地址偏移量,大小,访问权限,复位值,复位掩码
+RUN,Stcu Run Software,0x0,32,read-write,0x0,0xFFFFFFFF
+SKC,Stcu Key Code,0x10,32,write-only,0x0,0xFFFFFFFF
+WRP,Stcu Write Protect,0x20,32,read-write,0x1,0xFFFFFFFF
+WDG,Stcu Watchdog Granularity,0x30,32,read-write,0xFFFFFFFF,0xFFFFFFFF
+CFG,Stcu Configuration,0x40,32,read-write,0x0,0xFFFFFFFF
+RESULT,Stcu result status register,0x50,32,read-only,0x0,0xFFFFFFFF
+SV,Mode control,0xFC,32,read-write,0x1,0xFFFFFFFF
+ID,Id register,0xFFC,32,read-only,0xC2010,0xFFFFFFFF

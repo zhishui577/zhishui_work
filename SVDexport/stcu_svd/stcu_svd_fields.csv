@@ -1,0 +1,18 @@
+名称,描述,位偏移量,位宽度,访问权限
+RUN,The RUNSW bit is automatically cleared by Stcu when the online self-testing procedure is complete.,0,1,read-write
+Reserved,Reserved,1,30,read-write
+RUN_REDUN,Online MBIST Start,31,1,read-write
+KEY,Stcu Key Field,0,32,write-only
+PROTECT,Write Protect,0,1,read-write
+ACCESS_ERR,Write Protect,31,1,read-write
+WDGEOC,Watchdog End of Count Timer This value has to be set to define the time budget related to the online self-test execution and check that everything is correctly working within this slot of time,0,32,read-write
+INDEX_EN,index enable,0,16,read-write
+Reserved,Reserved,16,13,read-write
+RST_IO,Io control,29,1,read-write
+MBIST_RST,Reset after mbist,30,1,read-write
+TEST_EN,Test enable,31,1,read-write
+FAIL_FLG,Result flag,0,16,read-only
+BIST_DONE,Bist complete flag,16,1,read-only
+Reserved,Reserved,17,15,read-only
+STCU_SV,Access mode,31,1,read-write
+STCU_ID,Id field,31,1,read-only
